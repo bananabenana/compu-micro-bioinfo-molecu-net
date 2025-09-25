@@ -4,13 +4,22 @@
 
 - **Scope:** bioinformatics, microbiology, molecular biology, papers and other science-related things.
 - **Content:** Thoughts, code, tutorials, resources.
+<br/>
+
+**Check out the posts [here](https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts)**
+
+
 
 <p align="center">
-  <img src="Resources/logo.png" alt="compu-micro-bioinfo-molecu-net logo" style="height:400px; width:auto;">
+  <a href="https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts">
+    <img src="Resources/logo.png" alt="compu-micro-bioinfo-molecu-net logo" style="height:400px; width:auto;">
+  </a>
+    <figcaption><em>The extremly high-value and sought-after logo for compu-micro-bioinfo-molecu-net</em></figcaption>
 </p>
 
+
 ## About me
-I work as a research scientist in microbiology and infectious diseases. I am an expert in molecular biology (my first love), microbiology and comptuational biology/bioinformatics (my main love). I've spent a lot of time looking at bacterial pathogens and how they spread, their metabolism and antimicrobial resistance. My main focus is developing strategies to prevent and limit the spread of antimicrobial resistance through vaccine design, novel antimicrobial discovery, gene technologies and genomic surveillance.
+I work as a research scientist in microbiology and infectious diseases. I am an expert in molecular biology (my first love), microbiology and comptuational biology/bioinformatics (my main love). I've spent a lot of time looking at bacterial pathogens and how they transmit, along with their evolution, metabolism and resistance. My main focus is developing strategies to prevent and limit the spread of antimicrobial resistance through vaccine design, novel antimicrobial discovery, gene technologies and genomic surveillance.
 
 I currently work as a postdoc at the [Department of Infectious Diseases](https://www.monash.edu/medicine/translational/infectious-diseases), Monash University *(2020-Current)*.
 
@@ -21,18 +30,18 @@ If you want to check out my academic work and contributions to science:
 - [OpenAlex](https://openalex.org/authors/a5051696322)
 - [ORCiD](https://orcid.org/0000-0003-4224-2537)
 - [GitHub](https://github.com/bananabenana)
-- [One-pager resume](Resources/Resume_single_page_public_2025-09-24.pdf)
 
 ### Previous gigs
 - Consulting for the agricultral biotechnology sector *(2020-Current)*
 - Postdoc at the [Griffith Institute for Drug Discovery](https://www.griffith.edu.au/institute-drug-discovery) *(2019-2020)*
 - PhD from Monash University *(2014-2018)*
-    - Situated at [CSIRO ACDP](https://www.csiro.au/en/about/facilities-collections/acdp)
+    - [Australian Centre for Disease Preparedness](https://www.csiro.au/en/about/facilities-collections/acdp), CSIRO
     - [Department of Microbiology](https://www.monash.edu/discovery-institute/departments/microbiology), Monash University
     - [School of Science](https://www.rmit.edu.au/about/schools-colleges/science), RMIT University
-- Honours degree from Deakin University
-    - Situated at [CSIRO ACDP](https://www.csiro.au/en/about/facilities-collections/acdp)
-    - [School of Medicine](https://www.deakin.edu.au/faculty-of-health/school-of-medicine)
+- Honours from Deakin University *(2013-2014)*
+    - [Australian Centre for Disease Preparedness](https://www.csiro.au/en/about/facilities-collections/acdp), CSIRO
+    - [School of Medicine](https://www.deakin.edu.au/faculty-of-health/school-of-medicine), Deakin University
+- [One-pager resume](Resources/Resume_single_page_public_2025-09-24.pdf) for other
 
 
 # Reader info
