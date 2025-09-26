@@ -9,12 +9,23 @@
 **Check out the posts [here](https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts)**
 
 <figure>
+  <img src="Resources/No_Homers.png"
+    alt="Homer Simpson answering the phone with 'Compu-Global-Hyper-Mega-Net'"
+    style="height:300px; width:auto;">
+  <figcaption>
+    <em>Credit: The Simpsons (and whoever owns them now).</em>
+  </figcaption>
+</figure>
+
+
+<figure>
   <a href="https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts">
     <img src="Resources/logo.png"
        alt="compu-micro-bioinfo-molecu-net logo"
        style="height:400px; width:auto;">
     </a>
   <figcaption>
+    <br />
     <em>The extremly high-value and sought-after logo for compu-micro-bioinfo-molecu-net.</em>
   </figcaption>
 </figure>
