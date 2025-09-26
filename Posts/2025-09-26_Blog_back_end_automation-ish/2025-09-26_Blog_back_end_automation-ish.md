@@ -1,3 +1,17 @@
+<style>
+  .center-figure {
+    display: inline-block;
+    text-align: left;
+  }
+  .center-figure img {
+    display: block;
+    margin: 0 auto;
+  }
+  .center-figure figcaption {
+    margin-top: 4px;
+  }
+</style>
+
 # Blog back end automation-ish
 
 ##### 2025-09-26
@@ -106,10 +120,12 @@ git push origin main
 
 **5.** Now it's live:
 <div style="text-align:center;">
-  <figure style="display:inline-block; text-align:left;">
-    <img src="Resources/2025-09-26 14_22_16.png" alt="View on GitHub of the live blogpost" style="height:500px; width:auto;">
-    <figcaption style="margin-top:4px;">
-      <em>View on GitHub of the live blogpost</em>
+  <figure class="center-figure">
+    <img src="Resources/2025-09-26 02_12_24.png"
+         alt="VSCode with Markdown Preview Enhanced viewing the .md file from Step 1."
+         style="height:500px; width:auto;">
+    <figcaption>
+      <em>VSCode with Markdown Preview Enhanced viewing the .md file from Step 1.</em>
     </figcaption>
   </figure>
 </div>
