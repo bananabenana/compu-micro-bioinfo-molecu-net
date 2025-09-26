@@ -52,7 +52,7 @@ echo -e "# ${post_title}\n\n##### ${todays_date}\n\n## References\n\n" \
 
 **2.** Then I have to actually write the post.
 
-- I write in [VSCode](https://code.%20visualstudio.com/) v1.104.1 (1), with the incredibly helpful [Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) v0.8.19 (2). to see the mature markdown in real-time:
+- I write in [VSCode](https://code.%20visualstudio.com/) v1.104.1 (1), with the incredibly helpful [Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) v0.8.19 (2). to see the mature markdown in real-time
 - Citations are managed with [Zotero](https://www.zotero.org/) v7.0.15 (3) with the [Better Bibtex for Zotero](https://github.com/retorquere/zotero-better-bibtex/releases/tag/v7.0.50) v7.0.50 plugin (4). The VSCode plugin [VSCode Zotero](https://marketplace.visualstudio.com/items?itemName=jinvim.vscode-zotero) v1.1.1 (5) is used to handle in-text citations and generation of the `references.bib`.
 
 <figure>
@@ -87,6 +87,8 @@ pandoc \
   Posts/${title_string}/${title_string}_draft.md
 ```
 
+<br />
+
 **4.** If everything looks good, the draft is moved out of the repo and it’s perfect imperfections are hurried away from potential readers eyes. The repo is then prepped for `git push` and the blog post goes live:
 
 ``` bash
@@ -108,6 +110,8 @@ git commit -m "Post: ${title_string}"
 # Push to main
 git push origin main
 ```
+
+<br />
 
 **5.** The post is now live:
 
