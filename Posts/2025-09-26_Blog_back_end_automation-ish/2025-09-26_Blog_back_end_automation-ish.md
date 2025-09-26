@@ -9,6 +9,7 @@ My usual relationship with extra-curricular projects has a half-life that’s me
     <img src="Resources/project_decay_line.png"
          alt="Half-life decay of various personal projects of mine over time, including Replacing the mirror in the bathroom, Working on that Xenomorph speculative biology paper\nI started and never came back to, Telling my friends they SHOULDN'T start a podcast and Writing the compu-micro-bioinfo-molecu-net blog"
          style="height:500px; width:auto; display:block; margin:0 auto;">
+    <div style="height:6px;"></div>
     <figcaption style="display:block; margin-top:6px;">
       <em>Half-life decay in hours of various personal projects of mine. R code <a href="Resources/2025-09-26.Rmd">here</a></em>
     </figcaption>
@@ -61,6 +62,7 @@ echo -e "# ${post_title}\n\n##### ${todays_date}\n\n## References\n\n" \
     <img src="Resources/2025-09-26 02_12_24.png"
          alt="VSCode with Markdown Preview Enhanced viewing the .md file from Step 1."
          style="height:500px; width:auto; display:block; margin:0 auto;">
+    <div style="height:6px;"></div>
     <figcaption style="display:block; margin-top:6px;">
       <em>VSCode with Markdown Preview Enhanced viewing the .md file from Step 1.</em>
     </figcaption>
@@ -116,10 +118,11 @@ git push origin main
 <div style="text-align:center;">
   <figure style="display:inline-block; text-align:left;">
     <img src="Resources/2025-09-26 14_22_16.png"
-         alt="VSCode with Markdown Preview Enhanced viewing the .md file from Step 1."
+         alt="Live post viewed on GitHub."
          style="height:500px; width:auto; display:block; margin:0 auto;">
+    <div style="height:6px;"></div>
     <figcaption style="display:block; margin-top:6px;">
-      <em>VSCode with Markdown Preview Enhanced viewing the .md file from Step 1.</em>
+      <em>Live post viewed on GitHub.</em>
     </figcaption>
   </figure>
 </div>
