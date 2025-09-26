@@ -54,17 +54,14 @@ echo -e "# ${post_title}\n\n##### ${todays_date}\n\n## References\n\n" \
 - I write in [VSCode](https://code.%20visualstudio.com/) v1.104.1 (1), with the incredibly helpful [Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) v0.8.19 (2). to see the mature markdown in real-time:
 - Citations are managed with [Zotero](https://www.zotero.org/) v7.0.15 (3) with the [Better Bibtex for Zotero](https://github.com/retorquere/zotero-better-bibtex/releases/tag/v7.0.50) v7.0.50 plugin (4). The VSCode plugin [VSCode Zotero](https://marketplace.visualstudio.com/items?itemName=jinvim.vscode-zotero) v1.1.1 (5) is used to handle in-text citations and generation of the `references.bib`.
 
-<div style="text-align:center;">
-  <figure style="display:inline-block; text-align:left;">
-    <img src="Resources/2025-09-26 02_12_24.png"
-         alt="VSCode with Markdown Preview Enhanced viewing the .md file from Step 1."
-         style="height:500px; width:auto; display:block; margin:0 auto;">
-    <div style="height:6px;"></div>
-    <figcaption style="display:block; margin-top:6px;">
-      <em>VSCode with Markdown Preview Enhanced viewing the .md file from Step 1.</em>
-    </figcaption>
-  </figure>
-</div>
+<figure>
+  <img src="Resources/2025-09-26 02_12_24.png"
+       alt="VSCode with Markdown Preview Enhanced viewing the .md file from Step 1."
+       style="height:500px; width:auto;">
+  <figcaption>
+    <em>VSCode with Markdown Preview Enhanced viewing the .md file from Step 1.</em>
+  </figcaption>
+</figure>
 
 </br>
 
@@ -112,17 +109,14 @@ git push origin main
 
 **5.** The post is now live:
 
-<div style="text-align:center;">
-  <figure style="display:inline-block; text-align:left;">
-    <img src="Resources/2025-09-26 14_22_16.png"
-         alt="Live post viewed on GitHub."
-         style="height:500px; width:auto; display:block; margin:0 auto;">
-    <div style="height:6px;"></div>
-    <figcaption style="display:block; margin-top:6px;">
-      <em>Live post viewed on GitHub.</em>
-    </figcaption>
-  </figure>
-</div>
+<figure>
+  <img src="Resources/2025-09-26 14_22_16.png"
+       alt="Live post viewed on GitHub."
+       style="height:500px; width:auto;">
+  <figcaption>
+    <em>Live post viewed on GitHub.</em>
+  </figcaption>
+</figure>
 
 </br>
 
