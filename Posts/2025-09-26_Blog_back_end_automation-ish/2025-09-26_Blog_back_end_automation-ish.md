@@ -1,17 +1,3 @@
-<style>
-  .center-figure {
-    display: inline-block;
-    text-align: left;
-  }
-  .center-figure img {
-    display: block;
-    margin: 0 auto;
-  }
-  .center-figure figcaption {
-    margin-top: 4px;
-  }
-</style>
-
 # Blog back end automation-ish
 
 ##### 2025-09-26
@@ -68,9 +54,11 @@ echo -e "# ${post_title}\n\n##### ${todays_date}\n\n## References\n\n" \
 
 <div style="text-align:center;">
   <figure style="display:inline-block; text-align:left;">
-    <img src="Resources/2025-09-26 02_12_24.png"   alt="VSCode with Markdown Preview Enhanced viewing   the .md file from Step 1." style="height:500px; width:auto;">
+    <img src="Resources/2025-09-26 02_12_24.png"
+         alt="VSCode with Markdown Preview Enhanced viewing the .md file from Step 1."
+         style="height:500px; width:auto; display:block; margin:0 auto;">
     <figcaption style="margin-top:4px;">
-      <em>VSCode with Markdown Preview Enhanced viewing   the .md file from Step 1.</em>
+      <em>VSCode with Markdown Preview Enhanced viewing the .md file from Step 1.</em>
     </figcaption>
   </figure>
 </div>
