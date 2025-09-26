@@ -16,12 +16,12 @@ My usual relationship with extra-curricular projects has a half-life that’s me
   </figure>
 </div>
 
-<figure style="display:table; margin:0 auto; text-align:left;">
+<figure">
   <img src="Resources/project_decay_line.png"
        alt="Half-life decay of various personal projects of mine over time..."
-       style="height:500px; width:auto; display:block; margin:0 auto;">
+       style="height:500px; width:auto;">
   <div style="height:6px;"></div>
-  <figcaption style="display:block; margin-top:6px;">
+  <figcaption>
     <em>Half-life decay in hours of various personal projects of mine. R code <a href="Resources/2025-09-26.Rmd">here</a></em>
   </figcaption>
 </figure>
