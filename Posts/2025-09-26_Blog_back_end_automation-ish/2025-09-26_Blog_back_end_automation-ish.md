@@ -65,6 +65,7 @@ echo -e "# ${post_title}\n\n##### ${todays_date}\n\n## References\n\n" \
   <br />
 </figure>
 
+<br />
 
 **3.** After painstakinly crafting a blog of the highest calibre - just perfect, [perfect in every way](https://youtu.be/nyoxtceA4Rg?si=HVRiwXofCxA5RRnF&t=188) - so perfect that it could reverse itself out from beyond a cosmic event horizon, I run pandoc v3.8 (6) using a modified [Vancouver.csl](../../Resources/Vancouver_modified.csl) file to neatly generate the bibliography in markdown format:
 
