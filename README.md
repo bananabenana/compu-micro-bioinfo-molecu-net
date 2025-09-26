@@ -53,29 +53,41 @@
 
 <br />
 
+<br />
+
 3
-<br />
-
-<p align="center">
-  <img src="Resources/logo.png" style="height:400px; width:auto">
-</p>
 
 <br />
-4
-<br />
+
 <p style="text-align: center;">
-    <img src="Resources/logo.png" alt="Description of image" style="max-width: 100%; height: auto;" />
+    <img src="Resources/logo.png" alt="Description of image" style="max-width: 80%; height: auto;" />
+    test
+</p>
+
+<br />
+
+4
+
+<br />
+
+<p style="text-align: center;">
+    <img src="Resources/logo.png" alt="Description of image" style="max-width: 80%; height: auto;" />
+    <em>image_caption</em>
 </p>
 <br />
+
 5
 
 <br />
 
-<p align="center">
-   <a href="https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts">
-    <img src="Resources/logo.png" style="height:400px; width:auto">
+<p style="text-align: center;">
+  <a href="https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts">
+    <img src="Resources/logo.png" alt="Description of image" style="max-width: 80%; height: auto;" />
   </a>
+    <em>image_caption</em>
 </p>
+
+
 
 ## About me
 I am a research scientist in microbiology and infectious diseases. I am an expert in molecular biology, microbiology and comptuational biology/bioinformatics. I love doing science as a day job, in particular analysing and visualising data while learning as many techniques and strats as possible. I've spent a lot of time looking at bacterial pathogens and how they transmit, along with their evolution, metabolism and resistance. My main focus is developing strategies to prevent and limit the spread of antimicrobial resistance through vaccine design, novel antimicrobial discovery, gene technologies and genomic surveillance.
