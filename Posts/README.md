@@ -6,6 +6,8 @@ When I write them, check out my favourite posts:
 - YYY
 - ZZZ
 
-<p align="center">
-  <img src="../Resources/logo.png" alt="compu-micro-bioinfo-molecu-net logo" style="height:400px; width:auto;">
-</p>
+<div style="text-align:center;">
+  <figure style="display:inline-block; text-align:left;">
+    <img src="../Resources/logo.png" alt="compu-micro-bioinfo-molecu-net logo" style="height:400px; width:auto;">
+  </figure>
+</div>

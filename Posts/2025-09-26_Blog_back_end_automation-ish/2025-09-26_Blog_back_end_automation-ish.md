@@ -4,15 +4,14 @@
 
 My usual relationship with extra-curricular projects has a half-life that’s measured in single afternoons rather than the desired weeks/months. As such, it was a bit of work figuring out the underlying tooling, workflow and architecture to make the blogging process sticky, yet frictionless as +possible. In other words, I wanted to maximise *sticktionlessness*. For me, that starts with automation.
 
-<p align="center">
-
-<img src="Resources/project_decay_line.png" alt="Half-life decay of various personal projects of mine over time, including Replacing the mirror in the bathroom, Working on that Xenomorph speculative biology paper\nI started and never came back to, Telling my friends they SHOULDN'T start a podcast and Writing the compu-micro-bioinfo-molecu-net blog" style="height:400px; width:auto;">
-<figcaption>
-
-<em>Half-life decay in hours of various personal projects of mine. R code <a href="Resources/2025-09-26.Rmd">here</a></em>
-</figcaption>
-
-</p>
+<div style="text-align:center;">
+  <figure style="display:inline-block; text-align:left;">
+    <img src="Resources/project_decay_line.png" alt="Half-life decay of various personal projects of mine over time, including Replacing the mirror in the bathroom, Working on that Xenomorph speculative biology paper\nI started and never came back to, Telling my friends they SHOULDN'T start a podcast and Writing the compu-micro-bioinfo-molecu-net blog" style="height:400px; width:auto;">
+    <figcaption>
+      <em>Half-life decay in hours of various personal projects of mine. R code <a href="Resources/2025-09-26.Rmd">here</a>.</em>
+    </figcaption>
+  </figure>
+</div>
 
 ## Setting up the workflow
 
@@ -53,15 +52,15 @@ echo -e "# ${post_title}\n\n##### ${todays_date}\n\n## References\n\n" \
 - I write in [VSCode](https://code.%20visualstudio.com/) v1.104.1 (1), with the incredibly helpful [Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) v0.8.19 (2). to see the mature markdown in real-time:
 - Citations are managed with [Zotero](https://www.zotero.org/) v7.0.15 (3) with the [Better Bibtex for Zotero](https://github.com/retorquere/zotero-better-bibtex/releases/tag/v7.0.50) v7.0.50 plugin (4). The VSCode plugin [VSCode Zotero](https://marketplace.visualstudio.com/items?itemName=jinvim.vscode-zotero) v1.1.1 (5) is used to handle in-text citations and generation of the `references.bib`.
 
-<p align="center">
+<div style="text-align:center;">
+  <figure style="display:inline-block; text-align:left;">
+    <img src="Resources/2025-09-26 02_12_24.png"   alt="VSCode with Markdown Preview Enhanced viewing   the .md file from Step 1." style="height:500px; width:auto;">
+    <figcaption>
+      <em>VSCode with Markdown Preview Enhanced viewing   the .md file from Step 1.</em>
+    </figcaption>
+  </figure>
+</div>
 
-<img src="Resources/2025-09-26 02_12_24.png" alt="..." style="height:300px; width:auto;">
-<figcaption>
-
-<em>VSCode with Markdown Preview Enhanced viewing the .md file from Step 1.</em>
-</figcaption>
-
-</p>
 
 **3.** After painstakinly crafting a blog of the highest calibre - just perfect, [perfect in every way](https://youtu.be/nyoxtceA4Rg?si=HVRiwXofCxA5RRnF&t=188) - so perfect that it could reverse itself out from beyond a cosmic event horizon, I run pandoc v3.8 (6) using a modified [Vancouver.csl](../../Resources/Vancouver_modified.csl) file to neatly generate the bibliography in markdown format:
 
@@ -105,11 +104,27 @@ git commit -m "Post: ${title_string}"
 git push origin main
 ```
 
+**5.** Now it's live:
+<div style="text-align:center;">
+  <figure style="display:inline-block; text-align:left;">
+    <img src="Resources/2025-09-26 14_22_16.png" alt="View on GitHub of the live blogpost" style="height:500px; width:auto;">
+    <figcaption>
+      <em>View on GitHub of the live blogpost</em>
+    </figcaption>
+  </figure>
+</div>
+
+
 While I don’t *love* coding, I am obsessed what it allows me to do: less overall work. So, is this process overengineered? Probably. Was it worth the challenge to set this up and have systems in place? Yes. Always yes. Anything to maximise *sticktionlessness*.
+
+
+</br>
 
 ## Supplemental methods
 
 Data and project half-life figure generated using R v4.4.2 (7), RStudio v2024.12.1 (8), rstudioapi v0.17.1 (9), tidyverse v2.0.0 (10) and colorspace v2.1-1 (11).
+
+</br>
 
 ## References
 

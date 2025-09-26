@@ -10,12 +10,12 @@
 
 
 
-<p align="center">
+<figure style="text-align:left;">
   <a href="https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts">
     <img src="Resources/logo.png" alt="compu-micro-bioinfo-molecu-net logo" style="height:400px; width:auto;">
   </a>
     <figcaption><em>The extremly high-value and sought-after logo for compu-micro-bioinfo-molecu-net</em></figcaption>
-</p>
+</figure>
 
 
 ## About me
@@ -52,20 +52,25 @@ If for some reason you feel the urge to respond to one of these posts, just leav
 
 # Inspo and motivation
 Starting this blog was motivated by a yearning for >300 character-self-expression in a semi-professional context, while providing a potentially useful resource for other scientists or dabbling computational biologists. I was inspired by the informative and enjoyable blogs of several peers. The blog title is inspired by the Marge Simpson-suggested [Compu-Global-Hyper-Mega-Net](https://simpsonswiki.com/wiki/Compu-Global-Hyper-Mega-Net), because *what am I gonna call my [blog]? All the good names are taken.*
-<p align="center">
+
+<div style="text-align:center;">
+  <figure style="display:inline-block; text-align:left;">
     <img src="Resources/No_Homers.png" alt="Homer Simpson answering the phone with 'Compu-Global-Hyper-Mega-Net' " style="height:300px; width:auto;">
-  <figcaption><em>Credit: The Simpsons (and whoever owns them now)</em></figcaption>
-</p>
+    <figcaption><em>Credit: The Simpsons (and whoever owns them now)</em></figcaption>
+  </figure>
+</div>
 
 
 # Licensing info
-This blog in it's entirety, including all images, figures and text are licensed under CC BY, so feel free to use, manipulate, just chuck me a reference. Third-party images remain the property of their copyright holders and will be attributed when used.
+Aside from the blog title, the content of this blog including all images, figures and text are licensed under CC BY, so feel free to use, manipulate, just chuck me a reference. Third-party images remain the property of their copyright holders and will be attributed when used.
 
-<p align="center">
-  <a href="https://creativecommons.org/licenses/by/4.0/">
+<div style="text-align:center;">
+  <figure style="display:inline-block; text-align:left;">
+    <a href="https://creativecommons.org/licenses/by/4.0/">
     <img src="Resources/CC-BY_badge.png" alt="CC BY badge" style="height:50px; width:auto;">
-  </a>
-</p>
+    </a>
+  </figure>
+</div>
 
 
 # Meme-tier disclaimer
