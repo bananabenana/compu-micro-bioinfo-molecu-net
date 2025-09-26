@@ -111,6 +111,8 @@ git commit -m "Post: ${title_string}"
 git push origin main
 ```
 
+**5.** The post is now live:
+
 <div style="text-align:center;">
   <figure style="display:inline-block; text-align:left;">
     <img src="Resources/2025-09-26 14_22_16.png"
