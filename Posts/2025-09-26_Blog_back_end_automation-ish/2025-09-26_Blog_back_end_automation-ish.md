@@ -57,7 +57,7 @@ echo -e "# ${post_title}\n\n##### ${todays_date}\n\n## References\n\n" \
     <img src="Resources/2025-09-26 02_12_24.png"
          alt="VSCode with Markdown Preview Enhanced viewing the .md file from Step 1."
          style="height:500px; width:auto; display:block; margin:0 auto;">
-    <figcaption style="margin-top:4px;">
+    <figcaption style="display:block; margin-top:6px;">
       <em>VSCode with Markdown Preview Enhanced viewing the .md file from Step 1.</em>
     </figcaption>
   </figure>
@@ -106,13 +106,12 @@ git commit -m "Post: ${title_string}"
 git push origin main
 ```
 
-**5.** Now it's live:
 <div style="text-align:center;">
-  <figure class="center-figure">
-    <img src="Resources/2025-09-26 02_12_24.png"
+  <figure style="display:inline-block; text-align:left;">
+    <img src="Resources/2025-09-26 14_22_16.png"
          alt="VSCode with Markdown Preview Enhanced viewing the .md file from Step 1."
-         style="height:500px; width:auto;">
-    <figcaption>
+         style="height:500px; width:auto; display:block; margin:0 auto;">
+    <figcaption style="display:block; margin-top:6px;">
       <em>VSCode with Markdown Preview Enhanced viewing the .md file from Step 1.</em>
     </figcaption>
   </figure>
