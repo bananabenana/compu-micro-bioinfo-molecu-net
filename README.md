@@ -10,16 +10,13 @@
 
 <br/>
 
-1
-
-<figure style="text-align: center;">
-<!--<figure class="figure-caption text-center"> -->
+<figure>
   <a href="https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts">
     <img src="Resources/logo.png"
        alt="compu-micro-bioinfo-molecu-net logo"
        style="height:400px; width:auto;">
     </a>
-  <figcaption style="text-align: left;">
+  <figcaption>
     <br />
     <em>The extremly high-value and sought-after logo for compu-micro-bioinfo-molecu-net.</em>
   </figcaption>
@@ -161,9 +158,6 @@ Aside from the blog title, the content of this blog including all images, figure
        alt="compu-micro-bioinfo-molecu-net logo"
        style="height:50px; width:auto;">
     </a>
-  <figcaption>
-    <em></em>
-  </figcaption>
 </figure>
 
 <br />
