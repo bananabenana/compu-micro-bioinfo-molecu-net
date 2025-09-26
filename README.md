@@ -10,13 +10,14 @@
 
 <br/>
 
-<figure>
+<figure style="text-align: center;">
+<!--<figure class="figure-caption text-center"> -->
   <a href="https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts">
     <img src="Resources/logo.png"
        alt="compu-micro-bioinfo-molecu-net logo"
        style="height:400px; width:auto;">
     </a>
-  <figcaption>
+  <figcaption class="figure-caption text-left">
     <br />
     <em>The extremly high-value and sought-after logo for compu-micro-bioinfo-molecu-net.</em>
   </figcaption>
@@ -25,19 +26,20 @@
 <br />
 
 <div style="text-align:center;">
-  <figure style="display:inline-block; text-align:center;">
+  <figure>
     <a href="https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts">
       <img src="Resources/logo.png"
            alt="compu-micro-bioinfo-molecu-net logo"
            style="height:400px; width:auto;">
     </a>
-    <figcaption>
+    <figcaption style="text-align:left">
       <br />
       <em>The extremely high-value and sought-after logo for compu-micro-bioinfo-molecu-net.</em>
     </figcaption>
   </figure>
 </div>
 
+<br />
 
 <p align="center">
   <figure>
@@ -51,6 +53,22 @@
     </figcaption>
   </figure>
 </p>
+
+<br />
+
+<p align="center">
+  <figure>
+    <a href="https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts">
+      <img src="Resources/logo.png"
+           alt="compu-micro-bioinfo-molecu-net logo"
+           height="400">
+    </a>
+    <figcaption align="left">
+      <em>The extremely high-value and sought-after logo for compu-micro-bioinfo-molecu-net.</em>
+    </figcaption>
+  </figure>
+</p>
+
 
 ## About me
 I am a research scientist in microbiology and infectious diseases. I am an expert in molecular biology, microbiology and comptuational biology/bioinformatics. I love doing science as a day job, in particular analysing and visualising data while learning as many techniques and strats as possible. I've spent a lot of time looking at bacterial pathogens and how they transmit, along with their evolution, metabolism and resistance. My main focus is developing strategies to prevent and limit the spread of antimicrobial resistance through vaccine design, novel antimicrobial discovery, gene technologies and genomic surveillance.
