@@ -60,7 +60,7 @@
 <br />
 
 <p style="text-align: center;">
-    <img src="Resources/logo.png" alt="Description of image" style="max-width: 50%; height: auto;" />
+    <img src="Resources/logo.png" alt="Description of image" style="max-width: 20%; height: auto;" />
     test
 </p>
 
@@ -72,7 +72,6 @@
 
 <p style="text-align: center;">
     <img src="Resources/logo.png" alt="Description of image" style="height:400px; width:auto;" />
-    <em>image_caption</em>
 </p>
 <br />
 
@@ -84,7 +83,6 @@
   <a href="https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts">
     <img src="Resources/logo.png" alt="Description of image" style="height:400px; width:auto;" />
   </a>
-    <em>image_caption</em>
 </p>
 
 6
@@ -99,7 +97,14 @@
     <em>image_caption</em>
 </p>
 
-
+7
+<p style="text-align: center;">
+  <a href="https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts">
+    <img src="Resources/logo.png" alt="Description of image" style="height:400px; width:auto;" />
+  </a>
+</p>
+    <em>image_caption</em>
+</p>
 
 ## About me
 I am a research scientist in microbiology and infectious diseases. I am an expert in molecular biology, microbiology and comptuational biology/bioinformatics. I love doing science as a day job, in particular analysing and visualising data while learning as many techniques and strats as possible. I've spent a lot of time looking at bacterial pathogens and how they transmit, along with their evolution, metabolism and resistance. My main focus is developing strategies to prevent and limit the spread of antimicrobial resistance through vaccine design, novel antimicrobial discovery, gene technologies and genomic surveillance.
