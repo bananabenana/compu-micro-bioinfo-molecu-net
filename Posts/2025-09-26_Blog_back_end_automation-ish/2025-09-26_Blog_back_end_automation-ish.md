@@ -62,6 +62,7 @@ echo -e "# ${post_title}\n\n##### ${todays_date}\n\n## References\n\n" \
   <figcaption>
     <em>VSCode with Markdown Preview Enhanced viewing the .md file from Step 1.</em>
   </figcaption>
+  <br />
 </figure>
 
 
@@ -116,6 +117,7 @@ git push origin main
   <figcaption>
     <em>Live post viewed on GitHub.</em>
   </figcaption>
+  <br />
 </figure>
 
 <br />
