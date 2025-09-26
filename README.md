@@ -8,15 +8,18 @@
 
 **Check out the posts [here](https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts)**
 
-
-
-<figure style="text-align:left;">
+<figure>
   <a href="https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts">
-    <img src="Resources/logo.png" alt="compu-micro-bioinfo-molecu-net logo" style="height:400px; width:auto;">
-  </a>
-    <figcaption><em>The extremly high-value and sought-after logo for compu-micro-bioinfo-molecu-net</em></figcaption>
+    <img src="Resources/logo.png"
+       alt="compu-micro-bioinfo-molecu-net logo"
+       style="height:400px; width:auto;">
+    </a>
+  <figcaption>
+    <em>The extremly high-value and sought-after logo for compu-micro-bioinfo-molecu-net.</em>
+  </figcaption>
 </figure>
 
+<br />
 
 ## About me
 I am a research scientist in microbiology and infectious diseases. I am an expert in molecular biology, microbiology and comptuational biology/bioinformatics. I love doing science as a day job, in particular analysing and visualising data while learning as many techniques and strats as possible. I've spent a lot of time looking at bacterial pathogens and how they transmit, along with their evolution, metabolism and resistance. My main focus is developing strategies to prevent and limit the spread of antimicrobial resistance through vaccine design, novel antimicrobial discovery, gene technologies and genomic surveillance.
@@ -53,25 +56,32 @@ If for some reason you feel the urge to respond to one of these posts, just leav
 # Inspo and motivation
 Starting this blog was motivated by a yearning for >300 character-self-expression in a semi-professional context, while providing a potentially useful resource for other scientists or dabbling computational biologists. I was inspired by the informative and enjoyable blogs of several peers. The blog title is inspired by the Marge Simpson-suggested [Compu-Global-Hyper-Mega-Net](https://simpsonswiki.com/wiki/Compu-Global-Hyper-Mega-Net), because *what am I gonna call my [blog]? All the good names are taken.*
 
-<div style="text-align:center;">
-  <figure style="display:inline-block; text-align:left;">
-    <img src="Resources/No_Homers.png" alt="Homer Simpson answering the phone with 'Compu-Global-Hyper-Mega-Net' " style="height:300px; width:auto;">
-    <figcaption><em>Credit: The Simpsons (and whoever owns them now)</em></figcaption>
-  </figure>
-</div>
+<figure>
+  <img src="Resources/No_Homers.png"
+    alt="cHomer Simpson answering the phone with'Compu-Global-Hyper-Mega-Net'"
+    style="height:300px; width:auto;">
+  <figcaption>
+    <em>Credit: The Simpsons (and whoever owns them now).</em>
+  </figcaption>
+</figure>
 
+<br />
 
 # Licensing info
 Aside from the blog title, the content of this blog including all images, figures and text are licensed under CC BY, so feel free to use, manipulate, just chuck me a reference. Third-party images remain the property of their copyright holders and will be attributed when used.
 
-<div style="text-align:center;">
-  <figure style="display:inline-block; text-align:left;">
-    <a href="https://creativecommons.org/licenses/by/4.0/">
-    <img src="Resources/CC-BY_badge.png" alt="CC BY badge" style="height:50px; width:auto;">
+<figure>
+  <a href="https://creativecommons.org/licenses/by/4.0/">
+    <img src="Resources/CC-BY_badge.png"
+       alt="compu-micro-bioinfo-molecu-net logo"
+       style="height:50px; width:auto;">
     </a>
-  </figure>
-</div>
+  <figcaption>
+    <em></em>
+  </figcaption>
+</figure>
 
+<br />
 
 # Meme-tier disclaimer
 This blog is not affiliated with any of my current or past employers, nor does it represent their views etc. I'm not even sure it represents my views. Let's find out together.

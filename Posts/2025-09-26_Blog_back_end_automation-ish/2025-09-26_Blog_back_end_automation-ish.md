@@ -44,15 +44,15 @@ mkdir -p Posts/${title_string}
 post_title=$(echo "${todays_title}" | sed 's/_/ /g')
 
 # Create markdown file as a draft with headings and date
-echo -e "# ${post_title}\n\n##### ${todays_date}\n\n## References\n\n" \
+echo -e "# ${post_title}\n\n##### ${todays_date}\n\nintro_paragraph_here\n\n<br />\n\n## Heading1\n\n<br />\n\n## Supplemental methods\n\n<br />\n\n## References\n\n" \
   > Posts/${title_string}/${title_string}_draft.md
-```
+  ```
 
 <br />
 
 **2.** Then I have to actually write the post.
 
-- I write in [VSCode](https://code.%20visualstudio.com/) v1.104.1 (1), with the incredibly helpful [Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) v0.8.19 (2). to see the mature markdown in real-time
+- I write in [VSCode](https://code.%20visualstudio.com/) v1.104.1 (1), with the incredibly helpful [Markdown Preview Enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced) v0.8.19 (2) to see the mature markdown in real-time
 - Citations are managed with [Zotero](https://www.zotero.org/) v7.0.15 (3) with the [Better Bibtex for Zotero](https://github.com/retorquere/zotero-better-bibtex/releases/tag/v7.0.50) v7.0.50 plugin (4). The VSCode plugin [VSCode Zotero](https://marketplace.visualstudio.com/items?itemName=jinvim.vscode-zotero) v1.1.1 (5) is used to handle in-text citations and generation of the `references.bib`.
 
 <figure>
@@ -67,7 +67,7 @@ echo -e "# ${post_title}\n\n##### ${todays_date}\n\n## References\n\n" \
 
 <br />
 
-**3.** After painstakinly crafting a blog of the highest calibre - just perfect, [perfect in every way](https://youtu.be/nyoxtceA4Rg?si=HVRiwXofCxA5RRnF&t=188) - so perfect that it could reverse itself out from beyond a cosmic event horizon, I run pandoc v3.8 (6) using a modified [Vancouver.csl](../../Resources/Vancouver_modified.csl) file to neatly generate the bibliography in markdown format:
+**3.** After painstakingly crafting a blog of the highest calibre - just perfect, [perfect in every way](https://youtu.be/nyoxtceA4Rg?si=HVRiwXofCxA5RRnF&t=188) - so perfect that it could reverse itself out from beyond a cosmic event horizon, I run pandoc v3.8 (6) using a modified [Vancouver.csl](../../Resources/Vancouver_modified.csl) file to neatly generate the bibliography in markdown format:
 
 ``` bash
 # Installed pandoc
