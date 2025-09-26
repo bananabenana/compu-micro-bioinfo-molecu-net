@@ -60,7 +60,7 @@
 <br />
 
 <p style="text-align: center;">
-    <img src="Resources/logo.png" alt="Description of image" style="max-width: 80%; height: auto;" />
+    <img src="Resources/logo.png" alt="Description of image" style="max-width: 50%; height: auto;" />
     test
 </p>
 
@@ -71,7 +71,7 @@
 <br />
 
 <p style="text-align: center;">
-    <img src="Resources/logo.png" alt="Description of image" style="max-width: 80%; height: auto;" />
+    <img src="Resources/logo.png" alt="Description of image" style="max-width: 50%; height: auto;" />
     <em>image_caption</em>
 </p>
 <br />
@@ -82,8 +82,20 @@
 
 <p style="text-align: center;">
   <a href="https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts">
-    <img src="Resources/logo.png" alt="Description of image" style="max-width: 80%; height: auto;" />
+    <img src="Resources/logo.png" alt="Description of image" style="max-width: 50%; height: auto;" />
   </a>
+    <em>image_caption</em>
+</p>
+
+6
+
+<br />
+
+<p style="text-align: center;">
+  <a href="https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts">
+    <img src="Resources/logo.png" alt="Description of image" style="max-width: 50%; height: auto;" />
+  </a>
+  <br />
     <em>image_caption</em>
 </p>
 
