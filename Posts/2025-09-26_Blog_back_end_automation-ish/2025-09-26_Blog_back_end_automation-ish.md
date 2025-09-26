@@ -16,7 +16,9 @@ My usual relationship with extra-curricular projects has a half-life that’s me
   </figure>
 </div>
 
-<figure">
+</br>
+
+<figure>
   <img src="Resources/project_decay_line.png"
        alt="Half-life decay of various personal projects of mine over time..."
        style="height:500px; width:auto;">
