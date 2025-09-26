@@ -4,25 +4,10 @@
 
 My usual relationship with extra-curricular projects has a half-life that’s measured in single afternoons rather than the desired weeks/months. As such, it was a bit of work figuring out the underlying tooling, workflow and architecture to make the blogging process sticky, yet frictionless as +possible. In other words, I wanted to maximise *sticktionlessness*. For me, that starts with automation.
 
-<div style="text-align:center;">
-  <figure style="display:inline-block; text-align:left;">
-    <img src="Resources/project_decay_line.png"
-         alt="Half-life decay of various personal projects of mine over time, including Replacing the mirror in the bathroom, Working on that Xenomorph speculative biology paper\nI started and never came back to, Telling my friends they SHOULDN'T start a podcast and Writing the compu-micro-bioinfo-molecu-net blog"
-         style="height:500px; width:auto; display:block; margin:0 auto;">
-    <div style="height:6px;"></div>
-    <figcaption style="display:block; margin-top:6px;">
-      <em>Half-life decay in hours of various personal projects of mine. R code <a href="Resources/2025-09-26.Rmd">here</a></em>
-    </figcaption>
-  </figure>
-</div>
-
-</br>
-
 <figure>
   <img src="Resources/project_decay_line.png"
-       alt="Half-life decay of various personal projects of mine over time..."
+       alt="Half-life decay of various personal projects of mine over time, including Replacing the mirror in the bathroom, Working on that Xenomorph speculative biology paper\nI started and never came back to, Telling my friends they SHOULDN'T start a podcast and Writing the compu-micro-bioinfo-molecu-net blog"
        style="height:500px; width:auto;">
-<!--   <div style="height:6px;"></div> -->
   <figcaption>
     <em>Half-life decay in hours of various personal projects of mine. R code <a href="Resources/2025-09-26.Rmd">here</a></em>
   </figcaption>
