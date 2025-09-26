@@ -19,9 +19,11 @@
 
 
 ## About me
-I work as a research scientist in microbiology and infectious diseases. I am an expert in molecular biology (my first love), microbiology and comptuational biology/bioinformatics (my main love). I've spent a lot of time looking at bacterial pathogens and how they transmit, along with their evolution, metabolism and resistance. My main focus is developing strategies to prevent and limit the spread of antimicrobial resistance through vaccine design, novel antimicrobial discovery, gene technologies and genomic surveillance.
+I am a research scientist in microbiology and infectious diseases. I am an expert in molecular biology, microbiology and comptuational biology/bioinformatics. I love doing science as a day job, in particular analysing and visualising data while learning as many techniques and strats as possible. I've spent a lot of time looking at bacterial pathogens and how they transmit, along with their evolution, metabolism and resistance. My main focus is developing strategies to prevent and limit the spread of antimicrobial resistance through vaccine design, novel antimicrobial discovery, gene technologies and genomic surveillance.
 
 I currently work as a postdoc at the [Department of Infectious Diseases](https://www.monash.edu/medicine/translational/infectious-diseases), Monash University *(2020-Current)*.
+
+You can find me on Bluesky @[bananabenana.bsky.social](https://bsky.app/profile/bananabenana.bsky.social)
 
 
 ### Academic cred
@@ -48,8 +50,8 @@ If you want to check out my academic work and contributions to science:
 If for some reason you feel the urge to respond to one of these posts, just leave an [issue](https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/issues).
 
 
-# Inspo
-This blog was inspired by the blogs of several peers that I enjoy reading. The blog title is inspired by the Marge Simpson-suggested [Compu-Global-Hyper-Mega-Net](https://simpsonswiki.com/wiki/Compu-Global-Hyper-Mega-Net), because *what am I gonna call my [blog]? All the good names are taken.*
+# Inspo and motivation
+Starting this blog was motivated by a yearning for >300 character-self-expression in a semi-professional context, while providing a potentially useful resource for other scientists or dabbling computational biologists. I was inspired by the informative and enjoyable blogs of several peers. The blog title is inspired by the Marge Simpson-suggested [Compu-Global-Hyper-Mega-Net](https://simpsonswiki.com/wiki/Compu-Global-Hyper-Mega-Net), because *what am I gonna call my [blog]? All the good names are taken.*
 <p align="center">
     <img src="Resources/No_Homers.png" alt="Homer Simpson answering the phone with 'Compu-Global-Hyper-Mega-Net' " style="height:300px; width:auto;">
   <figcaption><em>Credit: The Simpsons (and whoever owns them now)</em></figcaption>
