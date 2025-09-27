@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="33.239609mm"
+   height="46.764145mm"
+   viewBox="0 0 33.239609 46.764145"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="DNA_gel.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.0283687"
+     inkscape:cx="66.80245"
+     inkscape:cy="65.323428"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="33.239609"
+       height="46.764145"
+       id="page1"
+       margin="0.5"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-88.399996,-125.17709)">
+    <g
+       id="g20"
+       transform="translate(-7.565745,30.973307)">
+      <rect
+         style="fill:#343434;fill-opacity:1;fill-rule:evenodd;stroke-width:0.483416;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect1"
+         width="32.239609"
+         height="45.764145"
+         x="96.465744"
+         y="94.703773"
+         ry="0.32852933" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:0.705;fill-rule:evenodd;stroke-width:0.245911;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect2"
+         width="4.4781976"
+         height="0.52351737"
+         x="98.798409"
+         y="96.780685"
+         ry="0.26175869"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:0.705;fill-rule:evenodd;stroke-width:0.231796;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect3"
+         width="4.4781976"
+         height="0.46514472"
+         x="98.798409"
+         y="98.601913"
+         ry="0.23257236"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:0.705;fill-rule:evenodd;stroke-width:0.243153;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect4"
+         width="4.4781976"
+         height="0.51184285"
+         x="98.798409"
+         y="100.45816"
+         ry="0.25592142"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:0.705;fill-rule:evenodd;stroke-width:0.243153;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect5"
+         width="4.4781976"
+         height="0.51184285"
+         x="98.798409"
+         y="102.36111"
+         ry="0.25592142"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:0.705;fill-rule:evenodd;stroke-width:0.216764;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect6"
+         width="4.4781976"
+         height="0.40677208"
+         x="98.798409"
+         y="104.3808"
+         ry="0.20338604"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke-width:0.243153;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect7"
+         width="4.4781976"
+         height="0.51184285"
+         x="98.798409"
+         y="108.0466"
+         ry="0.25592142"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke-width:0.231796;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect8"
+         width="4.4781976"
+         height="0.46514472"
+         x="98.798409"
+         y="109.91453"
+         ry="0.23257236"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:0.7;fill-rule:evenodd;stroke-width:0.256644;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect9"
+         width="4.4781976"
+         height="0.57021546"
+         x="98.798409"
+         y="113.6854"
+         ry="0.28510773"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:0.7;fill-rule:evenodd;stroke-width:0.240364;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect10"
+         width="4.4781976"
+         height="0.50016826"
+         x="98.798409"
+         y="117.60803"
+         ry="0.25008413"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke-width:0.222898;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect11"
+         width="4.4781976"
+         height="0.43012109"
+         x="98.798409"
+         y="121.57737"
+         ry="0.21506055"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:0.5;fill-rule:evenodd;stroke-width:0.197219;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect12"
+         width="4.4781976"
+         height="0.33672488"
+         x="98.798409"
+         y="125.68681"
+         ry="0.16836244"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:0.5;fill-rule:evenodd;stroke-width:0.207222;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect13"
+         width="4.4781976"
+         height="0.37174848"
+         x="98.798409"
+         y="129.30592"
+         ry="0.18587424"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:0.5;fill-rule:evenodd;stroke-width:0.175511;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect14"
+         width="4.4781976"
+         height="0.26667771"
+         x="98.798409"
+         y="134.95639"
+         ry="0.13333885"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke-width:0.243153;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect16"
+         width="4.4781976"
+         height="0.51184285"
+         x="110.34645"
+         y="111.54678"
+         ry="0.25592142"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke:#fbfbfb;stroke-width:0.643;stroke-linecap:square;stroke-miterlimit:5.5;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect17"
+         width="4.4781976"
+         height="0.51184285"
+         x="116.12048"
+         y="137.17073"
+         ry="0.25592142"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke-width:0.243153;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect18"
+         width="4.4781976"
+         height="0.51184285"
+         x="121.8945"
+         y="104.19791"
+         ry="0.25592142"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke-width:0.243153;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect19"
+         width="4.4781976"
+         height="0.51184285"
+         x="104.57243"
+         y="106.32953"
+         ry="0.25592142"
+         rx="0.38692164" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke-width:0.243153;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:markers stroke fill"
+         id="rect20"
+         width="4.4781976"
+         height="0.51184285"
+         x="110.34645"
+         y="125.5475"
+         ry="0.25592142"
+         rx="0.38692164" />
+    </g>
+  </g>
+</svg>

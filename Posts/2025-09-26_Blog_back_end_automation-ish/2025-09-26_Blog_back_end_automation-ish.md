@@ -130,7 +130,7 @@ git push origin main
 
 <br />
 
-While I don’t *love* coding, I am obsessed what it allows me to do: less overall work. So, is this process overengineered? Probably. Was it worth the challenge to set this up and have systems in place? Yes. Always yes. Anything to maximise *sticktionlessness*.
+As a result of this development, I made a stupidly high number of test commits to this repo to experiment with the visual style that I was happy with and that GitHub would correctly display in browser. While I don’t *love* coding, I am obsessed what it allows me to do: less overall work. So, is this process overengineered? Probably. Was it worth the challenge to set this up and have systems in place? Yes. Always yes. Anything to maximise *sticktionlessness*.
 
 <br />
 

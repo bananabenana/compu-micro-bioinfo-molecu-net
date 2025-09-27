@@ -2,7 +2,7 @@
 
 ## A blog by Ben Vezina.
 
-- **Scope:** bioinformatics, microbiology, molecular biology, papers and other science-related things.
+- **Scope:** Bioinformatics, microbiology, molecular biology, papers and other science-related things.
 - **Content:** Thoughts, code, tutorials, resources.
 <br/>
 
