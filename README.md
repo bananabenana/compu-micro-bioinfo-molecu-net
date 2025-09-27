@@ -52,10 +52,6 @@ If you want to check out my academic work and contributions to science:
 - [One-pager resume](Resources/Resume_single_page_public_2025-09-24.pdf) for other
 
 
-# Reader info
-If for some reason you feel the urge to respond to one of these posts, just leave an [issue](https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/issues).
-
-
 # Inspo and motivation
 Starting this blog was motivated by a yearning for >300 character-self-expression in a semi-professional context, while providing a potentially useful resource for other scientists or dabbling computational biologists. I was inspired by the informative and enjoyable blogs of several peers. The blog title is inspired by the Marge Simpson-suggested [Compu-Global-Hyper-Mega-Net](https://simpsonswiki.com/wiki/Compu-Global-Hyper-Mega-Net), because *what am I gonna call my [blog]? All the good names are taken.*
 
@@ -70,9 +66,14 @@ Starting this blog was motivated by a yearning for >300 character-self-expressio
 
 <br />
 
-# Licensing info
-Aside from the blog title, the content of this blog including all images, figures and text are licensed under CC BY, so feel free to use, manipulate, just chuck me a reference. Third-party images remain the property of their copyright holders and will be attributed when used.
+# Meme-tier disclaimer
+This blog is not affiliated with any of my current or past employers, nor does it represent their views etc. I'm not even sure it represents my views. Let's find out together.
 
+<br />
+
+# Licensing info, how to cite and reader info
+- If you find any of the blog's content useful or make use of any of the resources, please cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.17212790)
+- Aside from the blog title, the content of this blog including all images, figures and text are licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0), so feel free to use, copy, edit etc, just chuck me a [reference](https://doi.org/10.5281/zenodo.17212790).
 <figure>
   <a href="https://creativecommons.org/licenses/by/4.0/">
     <img src="Resources/CC-BY_badge.png"
@@ -81,7 +82,6 @@ Aside from the blog title, the content of this blog including all images, figure
     </a>
 </figure>
 
-<br />
-
-# Meme-tier disclaimer
-This blog is not affiliated with any of my current or past employers, nor does it represent their views etc. I'm not even sure it represents my views. Let's find out together.
+- If for some reason you feel the urge to respond to a post, just leave an [issue](https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/issues).
+- Third-party images remain the property of their copyright holders and will be attributed when used.
+- Copyright © 2025 Ben Vezina

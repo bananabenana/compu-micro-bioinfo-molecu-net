@@ -1,6 +1,16 @@
 # Automation, parallelisation and the modern biologist
 ##### 2025-09-24
 
+<figure>
+  <img src="Resources/pipette.svg"
+       alt="Live post viewed on GitHub."
+       style="height:400px; width:auto;">
+  <figcaption>
+    <em>Multi-channel fans rise up</em>
+  </figcaption>
+</figure>
+<br />
+
 ## Scale demands automation/parallel processes
 As someone who started their scientific career in the wet lab dealing with single strains and cloning, I was never taught to think at scale. Only when I started dealing with large datasets in the computational space, did this become an essential skill and design philosophy that I needed to develop. This sort of thinking has not only improved my capabilities and speed at which I can figure things out, but it has also improved my laboratory planning and execution. Nowadays, I won't step foot in the lab until I've done the prerequisite bioinformatics checks. This means the lab becomes a place of hypothesis validation/rejection rather than meandering discovery. This bioinformatically-driven decision-making covers everything from strain selection, power calculations, *in silico* PCR, antibiotic/antiseptic choice - all in an effort to maximise experimental discovery while minimising time spent (and plastic waste generated). Though I am a naturally lazy person, so maybe that's the real reason and everything else is *post hoc* rationalisation.
 
