@@ -3,6 +3,7 @@ Sub-directories contain blog posts and associated resources.
 
 |Title|Date|
 |---|---|
+|[Automation parallelisation and the modern biologist](2025-09-27_Automation_parallelisation_and_the_modern_biologist) | 2025-09-27 |
 |[Blog back end automation-ish](2025-09-26_Blog_back_end_automation-ish) | 2025-09-26 |
 
 <figure>
