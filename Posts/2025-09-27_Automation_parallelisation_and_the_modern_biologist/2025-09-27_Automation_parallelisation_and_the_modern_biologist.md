@@ -94,9 +94,26 @@ In terms of postgraduate students, we offer them hybrid wet and dry-lab projects
 
 <br />
 
+## Summary
+I have found that harnessing my inner laziness has led to increased productivity and better science, where doing more initial work leads to less overall work, thus giving me more time to spend on reducing the time I spend on even more things.
+
+<figure>
+
+<img src="Resources/advice_dog.png"
+       alt="Live post viewed on GitHub."
+       style="height:400px; width:auto;">
+<figcaption>
+
+<em>In other words: Spend more time working out how to spend less time working so you have more *less* time for other work.</em>
+</figcaption>
+
+</figure>
+
+<br />
+
 ## Supplemental methods
 
-Vector images drawn in Inkscape v1.3.2 (6). All figures are available as raw svg files in the [Resources](https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts/2025-09-27_Automation_parallelisation_and_the_modern_biologist/Resources) directory.
+Vector images drawn in Inkscape v1.3.2 (6). All figures are available as raw svg or png files in the [Resources](Resources) directory.
 
 <br />
 

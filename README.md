@@ -25,7 +25,7 @@
 <br />
 
 ## About me
-I am a research scientist in microbiology and infectious diseases. I am an expert in molecular biology, microbiology and comptuational biology/bioinformatics. I love doing science as a day job, in particular analysing and visualising data while learning as many techniques and strats as possible. I've spent a lot of time looking at bacterial pathogens and how they transmit, along with their evolution, metabolism and resistance. My main focus is developing strategies to prevent and limit the spread of antimicrobial resistance through vaccine design, novel antimicrobial discovery, gene technologies and genomic surveillance.
+I am a research scientist in microbiology and infectious diseases. I am an expert in molecular biology, microbiology and comptuational biology/bioinformatics. I love doing science as a day job, in particular analysing and visualising data. I've spent a lot of time looking at bacterial pathogens and how they transmit, along with their evolution, metabolism and resistance. My main focus is developing strategies to prevent and limit the spread of antimicrobial resistance through vaccine design, novel antimicrobial discovery, gene technologies and genomic surveillance.
 
 I currently work as a postdoc at the [Department of Infectious Diseases](https://www.monash.edu/medicine/translational/infectious-diseases), Monash University *(2020-Current)*.
 

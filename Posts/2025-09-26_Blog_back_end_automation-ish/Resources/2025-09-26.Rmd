@@ -52,8 +52,8 @@ generate_decay <- function(data) {
 
 # Calculate half-life for each project
 project_decay <- project_half_lives %>%
-  group_by(Project) %>%
-  group_map(~ generate_decay(.x), .keep = TRUE) %>%
+  group_by(Project) |>
+  group_map(~ generate_decay(.x), .keep = TRUE) |>
   bind_rows()
 
 
@@ -72,3 +72,6 @@ project_decay_line
 ggsave("project_decay_line.png", project_decay_line)
 
 ```
+
+
+
