@@ -113,7 +113,7 @@ I have found that harnessing my inner laziness has led to increased productivity
 
 ## Supplemental methods
 
-Vector images drawn in Inkscape v1.3.2 (6). All figures are available as raw svg or png files in the [Resources](Resources) directory.
+Vector images drawn in Inkscape v1.3.2 (6). All figures and code in the [Resources](Resources) directory.
 
 <br />
 

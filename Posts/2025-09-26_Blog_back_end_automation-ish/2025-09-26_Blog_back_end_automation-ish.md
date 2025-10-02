@@ -136,7 +136,7 @@ As a result of this development, I made a stupidly high number of test commits t
 
 ## Supplemental methods
 
-Data and project half-life figure generated using R v4.4.2 (7), RStudio v2024.12.1 (8), rstudioapi v0.17.1 (9), tidyverse v2.0.0 (10) and colorspace v2.1-1 (11).
+Data and project half-life figure generated using R v4.4.2 (7), RStudio v2024.12.1 (8), rstudioapi v0.17.1 (9), tidyverse v2.0.0 (10) and colorspace v2.1-1 (11). All figures and code in the [Resources](Resources) directory.
 
 <br />
 

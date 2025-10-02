@@ -108,7 +108,7 @@
       <if variable="URL">
         <group delimiter=": ">
           <!-- <text term="available at" text-case="capitalize-first"/> -->
-          <text variable="URL"/>
+          <text variable="URL" link="true"/>
         </group>
       </if>
     </choose>
