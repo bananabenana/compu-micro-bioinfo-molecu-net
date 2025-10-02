@@ -146,67 +146,67 @@ Data and project half-life figure generated using R v4.4.2 (7), RStudio v2024.12
 
 <div id="ref-VisualStudioCode" class="csl-entry">
 
-<span class="csl-left-margin">**1**. </span><span class="csl-right-inline">Visual Studio Code - Code Editing. Redefined. <https://code.visualstudio.com/></span>
+<span class="csl-left-margin"><b>1</b>. </span><span class="csl-right-inline">Visual Studio Code - Code Editing. Redefined. <https://code.visualstudio.com/></span>
 
 </div>
 
 <div id="ref-wangShd101wyyVscodemarkdownpreviewenhanced2025" class="csl-entry">
 
-<span class="csl-left-margin">**2**. </span><span class="csl-right-inline">Wang Y. Vscode-markdown-preview-enhanced. 2025. <https://github.com/shd101wyy/vscode-markdown-preview-enhanced></span>
+<span class="csl-left-margin"><b>2</b>. </span><span class="csl-right-inline">Wang Y. Vscode-markdown-preview-enhanced. 2025. <https://github.com/shd101wyy/vscode-markdown-preview-enhanced></span>
 
 </div>
 
 <div id="ref-takatsZotero2025" class="csl-entry">
 
-<span class="csl-left-margin">**3**. </span><span class="csl-right-inline">Takats S, Stillman D, Cheslack-Postava F, Bagdonas M, Jellinek M, Najdek T, et al. Zotero. 2025. <https://www.zotero.org/></span>
+<span class="csl-left-margin"><b>3</b>. </span><span class="csl-right-inline">Takats S, Stillman D, Cheslack-Postava F, Bagdonas M, Jellinek M, Najdek T, et al. Zotero. 2025. <https://www.zotero.org/></span>
 
 </div>
 
 <div id="ref-ZoterobetterbibtexMakeZotero" class="csl-entry">
 
-<span class="csl-left-margin">**4**. </span><span class="csl-right-inline">Zotero-better-bibtex: Make Zotero effective for us LaTeX holdouts. <https://github.com/retorquere/zotero-better-bibtex></span>
+<span class="csl-left-margin"><b>4</b>. </span><span class="csl-right-inline">Zotero-better-bibtex: Make Zotero effective for us LaTeX holdouts. <https://github.com/retorquere/zotero-better-bibtex></span>
 
 </div>
 
 <div id="ref-leeJinvimVscodezotero2025" class="csl-entry">
 
-<span class="csl-left-margin">**5**. </span><span class="csl-right-inline">Lee S. Vscode-zotero. 2025. <https://github.com/jinvim/vscode-zotero></span>
+<span class="csl-left-margin"><b>5</b>. </span><span class="csl-right-inline">Lee S. Vscode-zotero. 2025. <https://github.com/jinvim/vscode-zotero></span>
 
 </div>
 
 <div id="ref-JgmPandocUniversal" class="csl-entry">
 
-<span class="csl-left-margin">**6**. </span><span class="csl-right-inline">MacFarlane J. Pandoc: Universal markup converter. 2022. <https://github.com/jgm/pandoc></span>
+<span class="csl-left-margin"><b>6</b>. </span><span class="csl-right-inline">MacFarlane J. Pandoc: Universal markup converter. 2022. <https://github.com/jgm/pandoc></span>
 
 </div>
 
 <div id="ref-rcoreteamLanguageEnvironmentStatistical2024" class="csl-entry">
 
-<span class="csl-left-margin">**7**. </span><span class="csl-right-inline">Team RC. R: A Language and Environment for Statistical Computing. 2024. <https://www.R-project.org/></span>
+<span class="csl-left-margin"><b>7</b>. </span><span class="csl-right-inline">Team RC. R: A Language and Environment for Statistical Computing. 2024. <https://www.R-project.org/></span>
 
 </div>
 
 <div id="ref-positteamRStudioIntegratedDevelopment2025" class="csl-entry">
 
-<span class="csl-left-margin">**8**. </span><span class="csl-right-inline">Posit-team. RStudio: Integrated Development Environment for R. 2025. <http://www.posit.co/></span>
+<span class="csl-left-margin"><b>8</b>. </span><span class="csl-right-inline">Posit-team. RStudio: Integrated Development Environment for R. 2025. <http://www.posit.co/></span>
 
 </div>
 
 <div id="ref-usheyRstudioapiSafelyAccess2022" class="csl-entry">
 
-<span class="csl-left-margin">**9**. </span><span class="csl-right-inline">Ushey K, Allaire J, Wickham H, Ritchie G. Rstudioapi: Safely Access the RStudio API. 2022. <https://rstudio.github.io/rstudioapi/></span>
+<span class="csl-left-margin"><b>9</b>. </span><span class="csl-right-inline">Ushey K, Allaire J, Wickham H, Ritchie G. Rstudioapi: Safely Access the RStudio API. 2022. <https://rstudio.github.io/rstudioapi/></span>
 
 </div>
 
 <div id="ref-wickhamWelcomeTidyverse2019" class="csl-entry">
 
-<span class="csl-left-margin">**10**. </span><span class="csl-right-inline">Wickham H, Averick M, Bryan J, Chang W, McGowan LD, François R, et al. Welcome to the Tidyverse. Journal of Open Source Software. 2019 Nov 21; <https://joss.theoj.org/papers/10.21105/joss.01686></span>
+<span class="csl-left-margin"><b>10</b>. </span><span class="csl-right-inline">Wickham H, Averick M, Bryan J, Chang W, McGowan LD, François R, et al. Welcome to the Tidyverse. Journal of Open Source Software. 2019 Nov 21; <https://joss.theoj.org/papers/10.21105/joss.01686></span>
 
 </div>
 
 <div id="ref-zeileisColorspaceToolboxManipulating2020" class="csl-entry">
 
-<span class="csl-left-margin">**11**. </span><span class="csl-right-inline">Zeileis A, Fisher JC, Hornik K, Ihaka R, McWhite CD, Murrell P, et al. Colorspace: A Toolbox for Manipulating and Assessing Colors and Palettes. Journal of Statistical Software. 2020 Nov 29; <https://doi.org/10.18637/jss.v096.i01></span>
+<span class="csl-left-margin"><b>11</b>. </span><span class="csl-right-inline">Zeileis A, Fisher JC, Hornik K, Ihaka R, McWhite CD, Murrell P, et al. Colorspace: A Toolbox for Manipulating and Assessing Colors and Palettes. Journal of Statistical Software. 2020 Nov 29; <https://doi.org/10.18637/jss.v096.i01></span>
 
 </div>
 
