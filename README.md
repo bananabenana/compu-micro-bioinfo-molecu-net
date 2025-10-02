@@ -6,12 +6,12 @@
 - **Content:** Thoughts, code, tutorials, resources.
 <br/>
 
-**Check out the posts [here](https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts)**.
+**Check out the posts [here](Posts)**.
 
 <br/>
 
 <figure>
-  <a href="https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/tree/main/Posts">
+  <a href="Posts">
     <img src="Resources/logo.png"
        alt="compu-micro-bioinfo-molecu-net logo"
        style="height:400px; width:auto;">
