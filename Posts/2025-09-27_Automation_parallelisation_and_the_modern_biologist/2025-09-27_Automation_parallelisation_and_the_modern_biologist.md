@@ -123,37 +123,37 @@ Vector images drawn in Inkscape v1.3.2 (6). All figures and code in the [Resourc
 
 <div id="ref-TacklingCarbapenemResistance" class="csl-entry">
 
-<span class="csl-left-margin"><b>1</b>. </span><span class="csl-right-inline">Tackling carbapenem resistance in the Australian setting: Using genomics to understand the spread of deadly superbugs \| Supervisor Connect. <https://supervisorconnect.med.monash.edu/projects/tackling-carbapenem-resistance-australian-setting-using-genomics-understand-spread-deadly></span>
+<span class="csl-left-margin"><b>1</b>. </span><span class="csl-right-inline">Tackling carbapenem resistance in the Australian setting: Using genomics to understand the spread of deadly superbugs \| Supervisor Connect. <a href="https://supervisorconnect.med.monash.edu/projects/tackling-carbapenem-resistance-australian-setting-using-genomics-understand-spread-deadly">https://supervisorconnect.med.monash.edu/projects/tackling-carbapenem-resistance-australian-setting-using-genomics-understand-spread-deadly</a></span>
 
 </div>
 
 <div id="ref-BuildingGenomicsFramework" class="csl-entry">
 
-<span class="csl-left-margin"><b>2</b>. </span><span class="csl-right-inline">Building a genomics framework for emerging hospital superbugs \| Supervisor Connect. <https://supervisorconnect.med.monash.edu/projects/building-genomics-framework-emerging-hospital-superbugs></span>
+<span class="csl-left-margin"><b>2</b>. </span><span class="csl-right-inline">Building a genomics framework for emerging hospital superbugs \| Supervisor Connect. <a href="https://supervisorconnect.med.monash.edu/projects/building-genomics-framework-emerging-hospital-superbugs">https://supervisorconnect.med.monash.edu/projects/building-genomics-framework-emerging-hospital-superbugs</a></span>
 
 </div>
 
 <div id="ref-GenomicExperimentalAnalysis" class="csl-entry">
 
-<span class="csl-left-margin"><b>3</b>. </span><span class="csl-right-inline">Genomic and experimental analysis of antimicrobial resistance and hypervirulence convergence in Klebsiella pneumoniae \| Supervisor Connect. <https://supervisorconnect.med.monash.edu/projects/genomic-and-experimental-analysis-antimicrobial-resistance-and-hypervirulence-convergence></span>
+<span class="csl-left-margin"><b>3</b>. </span><span class="csl-right-inline">Genomic and experimental analysis of antimicrobial resistance and hypervirulence convergence in Klebsiella pneumoniae \| Supervisor Connect. <a href="https://supervisorconnect.med.monash.edu/projects/genomic-and-experimental-analysis-antimicrobial-resistance-and-hypervirulence-convergence">https://supervisorconnect.med.monash.edu/projects/genomic-and-experimental-analysis-antimicrobial-resistance-and-hypervirulence-convergence</a></span>
 
 </div>
 
 <div id="ref-DevelopmentRapidDiagnostic" class="csl-entry">
 
-<span class="csl-left-margin"><b>4</b>. </span><span class="csl-right-inline">Development of a rapid diagnostic assay against antimicrobial resistant pathogens \| Supervisor Connect. <https://supervisorconnect.med.monash.edu/projects/development-rapid-diagnostic-assay-against-antimicrobial-resistant-pathogens></span>
+<span class="csl-left-margin"><b>4</b>. </span><span class="csl-right-inline">Development of a rapid diagnostic assay against antimicrobial resistant pathogens \| Supervisor Connect. <a href="https://supervisorconnect.med.monash.edu/projects/development-rapid-diagnostic-assay-against-antimicrobial-resistant-pathogens">https://supervisorconnect.med.monash.edu/projects/development-rapid-diagnostic-assay-against-antimicrobial-resistant-pathogens</a></span>
 
 </div>
 
 <div id="ref-IdentifyingNovelAntimicrobials" class="csl-entry">
 
-<span class="csl-left-margin"><b>5</b>. </span><span class="csl-right-inline">Identifying novel antimicrobials against bacteria resistant to traditional antibiotics \| Supervisor Connect. <https://supervisorconnect.med.monash.edu/projects/identifying-novel-antimicrobials-against-bacteria-resistant-traditional-antibiotics></span>
+<span class="csl-left-margin"><b>5</b>. </span><span class="csl-right-inline">Identifying novel antimicrobials against bacteria resistant to traditional antibiotics \| Supervisor Connect. <a href="https://supervisorconnect.med.monash.edu/projects/identifying-novel-antimicrobials-against-bacteria-resistant-traditional-antibiotics">https://supervisorconnect.med.monash.edu/projects/identifying-novel-antimicrobials-against-bacteria-resistant-traditional-antibiotics</a></span>
 
 </div>
 
 <div id="ref-inkscape-developersInkscape2023" class="csl-entry">
 
-<span class="csl-left-margin"><b>6</b>. </span><span class="csl-right-inline">Inkscape-Developers. Inkscape. 2023. <https://inkscape.org></span>
+<span class="csl-left-margin"><b>6</b>. </span><span class="csl-right-inline">Inkscape-Developers. Inkscape. 2023. <a href="https://inkscape.org">https://inkscape.org</a></span>
 
 </div>
 
