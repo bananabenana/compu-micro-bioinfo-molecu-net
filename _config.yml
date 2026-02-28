@@ -1,3 +1,97 @@
+# Site-wide settings
 title: compu-micro-bioinfo-molecu-net
-description: A blog by Ben Vezina. Scope - Bioinformatics, microbiology, molecular biology, papers and other science-related things. Content - Thoughts, code, tutorials, resources. 
+author:
+  name: Ben Vezina
+  email: bd.vezina@gmail.com
+description: A blog by Ben Vezina
 markdown: kramdown
+theme: minima
+permalink: /posts/:title/
+
+kramdown:
+  input: GFM
+  auto_ids: true
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-toc
+
+# Jekyll TOC configuration
+toc:
+  min_level: 1  # include <h1> and below
+  max_level: 3  # include <h3>
+  ordered_list: false
+  list_id: toc
+  list_class: section-nav
+  sublist_class: ''
+  item_class: toc-entry
+  item_prefix: toc-
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: true
+# Uncomment the following setting if you wish to disable deprecation warnings
+#   from newer versions of sass converter. Adapt as required.
+# sass:
+#   quiet_deps: true
+#   silence_deprecations: [import]
+
+# Minima-specific settings (applicable to Minima v3 and above only)
+minima:
+  skin: classic
+#   Minima skin selection. Available skins are:
+#     * classic            Default, light color scheme.
+#     * dark               Dark variant of the classic skin.
+#     * auto               Adaptive skin based on the classic and dark skins.
+#     * solarized-light    Light variant of solarized color scheme.
+#     * solarized-dark     Dark variant of solarized color scheme.
+#     * solarized          Adaptive skin for solarized color scheme skins.
+#
+#   Specific pages for site navigation.
+#     If you wish to link only specific pages in the site-navigation, use this
+#     and list the `path` property (as represented via Liquid) of the pages in
+#     the order they should be rendered.
+  nav_pages:
+    - index.md
+    - about.md
+    - posts.md
+    - subscribe.md
+
+  giscus:
+    repo: bananabenana/compu-micro-bioinfo-molecu-net
+    repo_id: R_kgDOP1yyFg
+    category: Announcements
+    category_id: DIC_kwDOP1yyFs4Cv9Qw
+    theme: preferred_color_scheme
+#
+#   Set to `true` to show excerpts on the homepage.
+#   show_excerpts: false
+#
+#   Minima date format.
+#     The default value is "%b %d, %Y" (e.g. Nov 14, 2023).
+#     Refer to https://shopify.github.io/liquid/filters/date/ for valid values
+#   date_format: "%b-%d-%Y"
+#
+#   Social Media Links.
+#     Renders icons via Font Awesome Free webfonts CDN, based on ordered list of
+#     entries. Valid entry keys:
+#       * title    Tooltip rendered on hovering over icon.
+#       * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
+#       * url      Full URL of social profile.
+  social_links:
+    - title: Ben at Bsky
+      icon: bluesky
+      url: "https://bsky.app/profile/bananabenana.bsky.social"
+    - title: Ben at Bsky
+      icon: github
+      url: "https://github.com/bananabenana"
+#
+#   Hide syndication feed subscription link.
+#     RSS / Atom feed link is always rendered as the last item of social-links
+#     list. Set below key to `true` to not have the link to feed rendered as
+#     part of social-links list.
+  hide_site_feed_link: true

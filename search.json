@@ -1,0 +1,27 @@
+---
+layout: none
+permalink: /search.json
+---
+
+[
+{% assign about_page = site.pages | where: "title", "About" %}
+{% assign docs = site.posts | concat: about_page %}
+
+{% for doc in docs %}
+{
+  "title": {{ doc.title | jsonify }},
+  "url": {{ doc.url | relative_url | jsonify }},
+  "date": {{ doc.date | default: "" | date: "%Y-%m-%d" | jsonify }},
+  "image": {{ doc.image | relative_url | jsonify }},
+  "content": {{
+    doc.content
+    | replace_regex: '<img[^>]*alt="([^"]*)"[^>]*>', ' $1 '
+    | replace_regex: '<figcaption[^>]*>(.*?)</figcaption>', ' $1 '
+    | strip_html
+    | normalize_whitespace
+    | jsonify
+  }},
+  "excerpt": {{ doc.excerpt | strip_html | normalize_whitespace | jsonify }}
+}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

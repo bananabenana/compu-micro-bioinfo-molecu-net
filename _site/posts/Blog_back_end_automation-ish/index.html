@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Blog back end automation-ish | compu-micro-bioinfo-molecu-net</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Blog back end automation-ish" />
+<meta name="author" content="Ben Vezina" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="My usual relationship with extra-curricular projects has a half-life that’s measured in single afternoons rather than the desired weeks/months. As such, it was a bit of work figuring out the underlying tooling, workflow and architecture to make the blogging process sticky, yet frictionless as possible. In other words, I wanted to maximise sticktionlessness. For me, that starts with automation." />
+<meta property="og:description" content="My usual relationship with extra-curricular projects has a half-life that’s measured in single afternoons rather than the desired weeks/months. As such, it was a bit of work figuring out the underlying tooling, workflow and architecture to make the blogging process sticky, yet frictionless as possible. In other words, I wanted to maximise sticktionlessness. For me, that starts with automation." />
+<link rel="canonical" href="http://localhost:4000/posts/Blog_back_end_automation-ish/" />
+<meta property="og:url" content="http://localhost:4000/posts/Blog_back_end_automation-ish/" />
+<meta property="og:site_name" content="compu-micro-bioinfo-molecu-net" />
+<meta property="og:image" content="http://localhost:4000/assets/post_assets/2025-09-26_Blog_back_end_automation-ish/project_decay_line.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-09-26T00:00:00+10:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/post_assets/2025-09-26_Blog_back_end_automation-ish/project_decay_line.png" />
+<meta property="twitter:title" content="Blog back end automation-ish" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Ben Vezina"},"dateModified":"2025-09-26T00:00:00+10:00","datePublished":"2025-09-26T00:00:00+10:00","description":"My usual relationship with extra-curricular projects has a half-life that’s measured in single afternoons rather than the desired weeks/months. As such, it was a bit of work figuring out the underlying tooling, workflow and architecture to make the blogging process sticky, yet frictionless as possible. In other words, I wanted to maximise sticktionlessness. For me, that starts with automation.","headline":"Blog back end automation-ish","image":"http://localhost:4000/assets/post_assets/2025-09-26_Blog_back_end_automation-ish/project_decay_line.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Blog_back_end_automation-ish/"},"url":"http://localhost:4000/posts/Blog_back_end_automation-ish/"}</script>
+<!-- End Jekyll SEO tag -->
+<link id="main-stylesheet" rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="compu-micro-bioinfo-molecu-net" />
+<link rel="icon" href="/Resources/favicon.png" type="image/x-icon">
+
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">
+      <img src="/Resources/logo.png" alt="Site icon" class="site-icon">
+      compu-micro-bioinfo-molecu-net
+    </a>
+      <nav class="site-nav">
+
+        <input type="checkbox" id="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon"></span>
+        </label>
+      
+        <div class="nav-right">
+          <div class="nav-items">
+  <a class="nav-item" href="/">Home</a>
+  <a class="nav-item" href="/about/">About</a>
+  <a class="nav-item" href="/posts/">Posts</a>
+  <a class="nav-item" href="/subscribe/">Subscribe</a>
+</div>
+
+      
+          <!-- search box -->
+          <input type="text" id="search-input" placeholder="/ to search..." />
+        </div>
+      
+      </nav>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header" id="top">
+    <h1 class="post-title p-name" itemprop="name headline">Blog back end automation-ish</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2025-09-26T00:00:00+10:00" itemprop="datePublished">Sep 26, 2025
+      </time></p>
+  </header>
+
+  <div class="post-container">
+    <!-- Sticky TOC sidebar -->
+    <aside class="toc">
+      <!-- Return to top always first -->
+      <a href="#" class="toc-return-top">↑ Return to top</a>
+
+      <!-- Table of contents -->
+      <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h2"><a href="#setting-up-the-workflow">Setting up the workflow</a></li>
+<li class="toc-entry toc-h2"><a href="#supplemental-methods">Supplemental methods</a></li>
+<li class="toc-entry toc-h2"><a href="#references">References</a></li>
+</ul>
+
+      <!-- Comments link -->
+      <a href="#comments" class="toc-comments-link">Comments</a>
+    </aside>
+
+    <!-- Main post content including comments -->
+    <div class="post-content e-content" itemprop="articleBody">
+      <p>My usual relationship with extra-curricular projects has a half-life that’s measured in single afternoons rather than the desired weeks/months. As such, it was a bit of work figuring out the underlying tooling, workflow and architecture to make the blogging process sticky, yet frictionless as possible. In other words, I wanted to maximise <em>sticktionlessness</em>. For me, that starts with automation.</p>
+
+<figure class="centered-figure">
+  <img src="/assets/post_assets/2025-09-26_Blog_back_end_automation-ish/project_decay_line.png" alt="Half-life decay of various personal projects of mine over time, including Replacing the mirror in the bathroom, Working on that Xenomorph speculative biology paper\nI started and never came back to, Telling my friends they SHOULDN'T start a podcast and Writing the compu-micro-bioinfo-molecu-net blog" style="height:500px; width:auto;" />
+  <figcaption>
+    <em>Half-life decay in hours of various personal projects of mine. R code <a href="/assets/post_assets/2025-09-26_Blog_back_end_automation-ish/2025-09-26.Rmd">here</a></em>
+  </figcaption>
+</figure>
+
+<p><br /></p>
+
+<h2 id="setting-up-the-workflow">Setting up the workflow</h2>
+
+<p>Background: I set this up with git, hosted on GitHub. I run a combination of WSL2 on Windows 10, and Pop_OS! 22.04 for command line interface. Steps:</p>
+
+<p><strong>1.</strong> Decide on a post title and alter the <code class="language-plaintext highlighter-rouge">todays_title</code> variable, then run the following chunk in terminal:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Decide on title</span>
+<span class="nv">todays_title</span><span class="o">=</span>Blog_back_end_automation-ish
+
+<span class="c"># Go to blog directory</span>
+<span class="nb">cd </span>compu-micro-bioinfo-molecu-net
+
+<span class="c"># Grab today's date</span>
+<span class="nv">todays_date</span><span class="o">=</span><span class="si">$(</span><span class="nb">date</span> +<span class="s2">"%F"</span><span class="si">)</span>
+
+<span class="c"># Generate the title string</span>
+<span class="nv">title_string</span><span class="o">=</span><span class="k">${</span><span class="nv">todays_date</span><span class="k">}</span>_<span class="k">${</span><span class="nv">todays_title</span><span class="k">}</span>
+
+<span class="c">## Generate post framework</span>
+
+<span class="c"># Create directory for new post</span>
+<span class="nb">mkdir</span> <span class="nt">-p</span> Posts/<span class="k">${</span><span class="nv">title_string</span><span class="k">}</span>
+
+<span class="c"># Replace underscores with spaces for the post header</span>
+<span class="nv">post_title</span><span class="o">=</span><span class="si">$(</span><span class="nb">echo</span> <span class="s2">"</span><span class="k">${</span><span class="nv">todays_title</span><span class="k">}</span><span class="s2">"</span> | <span class="nb">sed</span> <span class="s1">'s/_/ /g'</span><span class="si">)</span>
+
+<span class="c"># Create markdown file as a draft with headings and date</span>
+<span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"# </span><span class="k">${</span><span class="nv">post_title</span><span class="k">}</span><span class="se">\n\n</span><span class="s2">##### </span><span class="k">${</span><span class="nv">todays_date</span><span class="k">}</span><span class="se">\n\n</span><span class="s2">intro_paragraph_here</span><span class="se">\n\n</span><span class="s2">&lt;br /&gt;</span><span class="se">\n\n</span><span class="s2">## Heading1</span><span class="se">\n\n</span><span class="s2">&lt;br /&gt;</span><span class="se">\n\n</span><span class="s2">## Supplemental methods</span><span class="se">\n\n</span><span class="s2">&lt;br /&gt;</span><span class="se">\n\n</span><span class="s2">## References</span><span class="se">\n\n</span><span class="s2">"</span> <span class="se">\</span>
+  <span class="o">&gt;</span> Posts/<span class="k">${</span><span class="nv">title_string</span><span class="k">}</span>/<span class="k">${</span><span class="nv">title_string</span><span class="k">}</span>_draft.md
+</code></pre></div></div>
+
+<p><br /></p>
+
+<p><strong>2.</strong> Then I have to actually write the post.</p>
+
+<ul>
+  <li>I write in <a href="https://code.%20visualstudio.com/">VSCode</a> v1.104.1 (1), with the incredibly helpful <a href="https://github.com/shd101wyy/vscode-markdown-preview-enhanced">Markdown Preview Enhanced</a> v0.8.19 (2) to see the mature markdown in real-time</li>
+  <li>Citations are managed with <a href="https://www.zotero.org/">Zotero</a> v7.0.15 (3) with the <a href="https://github.com/retorquere/zotero-better-bibtex/releases/tag/v7.0.50">Better Bibtex for Zotero</a> v7.0.50 plugin (4). The VSCode plugin <a href="https://marketplace.visualstudio.com/items?itemName=jinvim.vscode-zotero">VSCode Zotero</a> v1.1.1 (5) is used to handle in-text citations and generation of the <code class="language-plaintext highlighter-rouge">references.bib</code>.</li>
+</ul>
+
+<figure class="centered-figure">
+  <img src="/assets/post_assets/2025-09-26_Blog_back_end_automation-ish/2025-09-26_window.png" alt="VSCode with Markdown Preview Enhanced viewing the .md file from Step 1." style="height:500px; width:auto;" />
+  <figcaption>
+    <em>VSCode with Markdown Preview Enhanced viewing the .md file from Step 1.</em>
+  </figcaption>
+</figure>
+
+<p><br /></p>
+
+<p><strong>3.</strong> After painstakingly crafting a blog of the highest calibre - just perfect, <a href="https://youtu.be/nyoxtceA4Rg?si=HVRiwXofCxA5RRnF&amp;t=188">perfect in every way</a> - so perfect that it could reverse itself out from beyond a cosmic event horizon, I run pandoc v3.8 (6) using a modified <a href="../../Resources/Vancouver_modified.csl">Vancouver.csl</a> file to neatly generate the bibliography in markdown format:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Installed pandoc</span>
+mamba create <span class="nt">-y</span> <span class="nt">-n</span> blog
+mamba <span class="nb">install</span> <span class="nt">-y</span> <span class="nt">-n</span> blog conda-forge::pandoc
+
+<span class="c"># Add bibliography with pandoc and generate the final post</span>
+mamba activate blog
+pandoc <span class="se">\</span>
+  <span class="nt">--from</span><span class="o">=</span>markdown <span class="se">\</span>
+  <span class="nt">--to</span><span class="o">=</span>gfm <span class="se">\</span>
+  <span class="nt">--citeproc</span> <span class="se">\</span>
+  <span class="nt">--bibliography</span><span class="o">=</span>references.bib <span class="se">\</span>
+  <span class="nt">--csl</span><span class="o">=</span>Resources/Vancouver_modified.csl <span class="se">\</span>
+  <span class="nt">--wrap</span><span class="o">=</span>none <span class="se">\</span>
+  <span class="nt">-o</span> Posts/<span class="k">${</span><span class="nv">title_string</span><span class="k">}</span>/<span class="k">${</span><span class="nv">title_string</span><span class="k">}</span>.md <span class="se">\</span>
+  Posts/<span class="k">${</span><span class="nv">title_string</span><span class="k">}</span>/<span class="k">${</span><span class="nv">title_string</span><span class="k">}</span>_draft.md
+</code></pre></div></div>
+
+<p><br /></p>
+
+<p><strong>4.</strong> If everything looks good, the draft is moved out of the repo and it’s perfect imperfections are hurried away from potential readers eyes. The repo is then prepped for <code class="language-plaintext highlighter-rouge">git push</code> and the blog post goes live:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Move the draft out of the repo</span>
+<span class="nb">mv </span>Posts/<span class="k">${</span><span class="nv">title_string</span><span class="k">}</span>/<span class="k">${</span><span class="nv">title_string</span><span class="k">}</span>_draft.md ../Drafts
+
+<span class="c"># Create simlink called README.md so GitHub shows it as a main file, so I can keep the original file name - best of both worlds</span>
+<span class="nb">ln</span> <span class="nt">-s</span> <span class="k">${</span><span class="nv">title_string</span><span class="k">}</span>.md Posts/<span class="k">${</span><span class="nv">title_string</span><span class="k">}</span>/README.md
+
+<span class="c"># Move references file generated by VSCode Zotero in the root directory into the posts' Resource directory</span>
+<span class="nb">mv </span>references.bib Posts/<span class="k">${</span><span class="nv">title_string</span><span class="k">}</span>/Resources
+
+<span class="c"># Update archive table in Post/README.md</span>
+<span class="nb">sed</span> <span class="nt">-i</span> <span class="s2">"6 i |[</span><span class="k">${</span><span class="nv">post_title</span><span class="k">}</span><span class="s2">](</span><span class="k">${</span><span class="nv">title_string</span><span class="k">}</span><span class="s2">) | </span><span class="k">${</span><span class="nv">todays_date</span><span class="k">}</span><span class="s2"> |"</span> Posts/README.md
+
+<span class="c"># Add everything to repo</span>
+git add <span class="nb">.</span>
+
+<span class="c"># Commit changes</span>
+git commit <span class="nt">-m</span> <span class="s2">"Post: </span><span class="k">${</span><span class="nv">title_string</span><span class="k">}</span><span class="s2">"</span>
+
+<span class="c"># Push to main</span>
+git push origin main
+</code></pre></div></div>
+
+<p><br /></p>
+
+<p><strong>5.</strong> The post is now live:</p>
+
+<figure class="centered-figure">
+  <img src="/assets/post_assets/2025-09-26_Blog_back_end_automation-ish//2025-09-26_GH.png" alt="Live post viewed on GitHub." style="height:500px; width:auto;" />
+  <figcaption>
+    <em>Live post viewed on GitHub.</em>
+  </figcaption>
+</figure>
+
+<p><br /></p>
+
+<p>As a result of this development, I made a stupidly high number of test commits to this repo to experiment with the visual style that I was happy with and that GitHub would correctly display in browser. While I don’t <em>love</em> coding, I am obsessed what it allows me to do: less overall work. So, is this process overengineered? Probably. Was it worth the challenge to set this up and have systems in place? Yes. Always yes. Anything to maximise <em>sticktionlessness</em>.</p>
+
+<p><br /></p>
+
+<h2 id="supplemental-methods">Supplemental methods</h2>
+
+<p>Data and project half-life figure generated using R v4.4.2 (7), RStudio v2024.12.1 (8), rstudioapi v0.17.1 (9), tidyverse v2.0.0 (10) and colorspace v2.1-1 (11). All figures and code in the Vector images drawn in Inkscape v1.3.2 (6). All figures and code in <a href="/assets/post_assets/2025-09-26_Blog_back_end_automation-ish">assets</a>. directory.</p>
+
+<p><br /></p>
+
+<h2 id="references">References</h2>
+
+<div id="refs" class="references csl-bib-body" entry-spacing="0">
+
+<div id="ref-VisualStudioCode" class="csl-entry">
+
+<span class="csl-left-margin"><b>1</b>. </span><span class="csl-right-inline">Visual Studio Code - Code Editing. Redefined. &lt;https://code.visualstudio.com/&gt;</span>
+
+</div>
+
+<div id="ref-wangShd101wyyVscodemarkdownpreviewenhanced2025" class="csl-entry">
+
+<span class="csl-left-margin"><b>2</b>. </span><span class="csl-right-inline">Wang Y. Vscode-markdown-preview-enhanced. 2025. &lt;https://github.com/shd101wyy/vscode-markdown-preview-enhanced&gt;</span>
+
+</div>
+
+<div id="ref-takatsZotero2025" class="csl-entry">
+
+<span class="csl-left-margin"><b>3</b>. </span><span class="csl-right-inline">Takats S, Stillman D, Cheslack-Postava F, Bagdonas M, Jellinek M, Najdek T, et al. Zotero. 2025. &lt;https://www.zotero.org/&gt;</span>
+
+</div>
+
+<div id="ref-ZoterobetterbibtexMakeZotero" class="csl-entry">
+
+<span class="csl-left-margin"><b>4</b>. </span><span class="csl-right-inline">Zotero-better-bibtex: Make Zotero effective for us LaTeX holdouts. &lt;https://github.com/retorquere/zotero-better-bibtex&gt;</span>
+
+</div>
+
+<div id="ref-leeJinvimVscodezotero2025" class="csl-entry">
+
+<span class="csl-left-margin"><b>5</b>. </span><span class="csl-right-inline">Lee S. Vscode-zotero. 2025. &lt;https://github.com/jinvim/vscode-zotero&gt;</span>
+
+</div>
+
+<div id="ref-JgmPandocUniversal" class="csl-entry">
+
+<span class="csl-left-margin"><b>6</b>. </span><span class="csl-right-inline">MacFarlane J. Pandoc: Universal markup converter. 2022. &lt;https://github.com/jgm/pandoc&gt;</span>
+
+</div>
+
+<div id="ref-rcoreteamLanguageEnvironmentStatistical2024" class="csl-entry">
+
+<span class="csl-left-margin"><b>7</b>. </span><span class="csl-right-inline">Team RC. R: A Language and Environment for Statistical Computing. 2024. &lt;https://www.R-project.org/&gt;</span>
+
+</div>
+
+<div id="ref-positteamRStudioIntegratedDevelopment2025" class="csl-entry">
+
+<span class="csl-left-margin"><b>8</b>. </span><span class="csl-right-inline">Posit-team. RStudio: Integrated Development Environment for R. 2025. &lt;http://www.posit.co/&gt;</span>
+
+</div>
+
+<div id="ref-usheyRstudioapiSafelyAccess2022" class="csl-entry">
+
+<span class="csl-left-margin"><b>9</b>. </span><span class="csl-right-inline">Ushey K, Allaire J, Wickham H, Ritchie G. Rstudioapi: Safely Access the RStudio API. 2022. &lt;https://rstudio.github.io/rstudioapi/&gt;</span>
+
+</div>
+
+<div id="ref-wickhamWelcomeTidyverse2019" class="csl-entry">
+
+<span class="csl-left-margin"><b>10</b>. </span><span class="csl-right-inline">Wickham H, Averick M, Bryan J, Chang W, McGowan LD, François R, et al. Welcome to the Tidyverse. Journal of Open Source Software. 2019 Nov 21; &lt;https://joss.theoj.org/papers/10.21105/joss.01686&gt;</span>
+
+</div>
+
+<div id="ref-zeileisColorspaceToolboxManipulating2020" class="csl-entry">
+
+<span class="csl-left-margin"><b>11</b>. </span><span class="csl-right-inline">Zeileis A, Fisher JC, Hornik K, Ihaka R, McWhite CD, Murrell P, et al. Colorspace: A Toolbox for Manipulating and Assessing Colors and Palettes. Journal of Statistical Software. 2020 Nov 29; &lt;https://doi.org/10.18637/jss.v096.i01&gt;</span>
+
+</div>
+
+</div>
+
+
+      <!-- Comments are now inside the flex layout -->
+      
+<section id="comments">
+  <h2>Comments</h2>
+
+  <script src="https://giscus.app/client.js"
+          data-repo="bananabenana/compu-micro-bioinfo-molecu-net"
+          data-repo-id="R_kgDOP1yyFg"
+          data-category="Announcements"
+          data-category-id="DIC_kwDOP1yyFs4Cv9Qw"
+          data-mapping="pathname"
+          data-reactions-enabled="1"
+          data-input-position="bottom"
+          data-theme="light"
+          crossorigin="anonymous"
+          async>
+  </script>
+
+</section>
+
+
+      <!-- Optional return to top (redundant, now also in TOC) -->
+      <a href="#top" class="return-to-top">↑ Return to top</a>
+    </div>
+  </div>
+
+  <a class="u-url" href="/posts/Blog_back_end_automation-ish/" hidden></a>
+</article>
+      </div>
+    </main><link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.0.0/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <data class="u-url" value="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <ul class="contact-list">
+          <li class="p-name">Ben Vezina</li>
+          <li><a class="u-email" href="mailto:bd.vezina@gmail.com">bd.vezina@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>A blog by Ben Vezina</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li>
+    <a rel="me" href="https://bsky.app/profile/bananabenana.bsky.social" target="_blank" title="Ben at Bsky">
+      <span class="grey fa-brands fa-bluesky fa-lg"></span>
+    </a>
+  </li><li>
+    <a rel="me" href="https://github.com/bananabenana" target="_blank" title="Ben at Bsky">
+      <span class="grey fa-brands fa-github fa-lg"></span>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+<script src="/assets/js/toc-highlight.js"></script>
+  <script src="/assets/js/sortable-tables.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+  <script src="/assets/js/search.js"></script>
+  <div id="search-results"></div>
+  </body>
+
+</html>

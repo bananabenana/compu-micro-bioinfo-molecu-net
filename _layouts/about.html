@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header" id="top">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-container">
+
+    <!-- Sticky TOC sidebar -->
+    <aside class="toc">
+      <a href="#" class="toc-return-top">↑ Return to top</a>
+      {{ content | toc_only }}
+    </aside>
+
+    <!-- Main page content -->
+    <div class="post-content e-content" itemprop="articleBody">
+      {{ content }}
+    </div>
+
+  </div>
+
+</article>

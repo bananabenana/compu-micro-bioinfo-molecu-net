@@ -1,1 +1,0 @@
-2025-09-27_Automation_parallelisation_and_the_modern_biologist.md
