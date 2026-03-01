@@ -10,7 +10,7 @@ If you want the tl;dr: Great interactive exhibits, creative use of space, many p
 
 
 <figure class="centered-figure">
-  <img src="{{ '/assets/post_assets/2025-10-11-Scienceworks_is_an_absolute_delight/moon.jpg' | relative_url }}">
+  <img src="{{ '/assets/post_assets/2025-10-11-Scienceworks_is_an_absolute_delight/moon.jpg' | relative_url }}"
     alt="An absolute legend standing underneath a giant model moon at the Planetarium, Scienceworks."
     style="height:400px; width:auto;">
   <figcaption>
@@ -27,7 +27,7 @@ One of the most impressive things about Scienceworks is that it really isn't a l
 From the perspective of children and teenagers, there is so many interactive exhibits. I would guess at least 80% of exhibits allow you to tactilely move things, or squeeze them, or press them, or experience them in at least one way - sometimes multiple! I even saw many parents playing, both with their children and for their own curiousity. Each exhibited piece is so thoughtfully designed, while focusing on genuinely educating kids, and even their parents too. 
 
 <figure class="centered-figure">
-  <img src="/assets/post_assets/2025-10-11-Scienceworks_is_an_absolute_delight/supercomputer.jpg"
+ <img src="{{ '/assets/post_assets/2025-10-11-Scienceworks_is_an_absolute_delight/supercomputer.jpg' | relative_url }}"
     alt="CSIRAC computer operated between 1949-1964."
     style="height:400px; width:auto;">
   <figcaption>
@@ -56,7 +56,7 @@ And that's what I felt today - genuine joy. Rarely when I go out do I feel *joy*
 What is so great about Scienceworks is that instead of having discrete playgrounds then exhibits, the exhibits ARE the playground. They're not seperate.
 
 <figure class="centered-figure">
-  <img src="/assets/post_assets/2025-10-11-Scienceworks_is_an_absolute_delight/ground_up.jpg"
+  <img src="{{ '/assets/post_assets/2025-10-11-Scienceworks_is_an_absolute_delight/ground_up.jpg' | relative_url }}"
     alt=""
     style="height:400px; width:auto;">
   <figcaption>
@@ -75,7 +75,7 @@ I think we've all been to museums or public learning spaces and are just not rea
 All this made me want to donate (which I did) and make sure this modern artform of mixing education with interaction can be studied and learned from. Scienceworks is the gold standard in spatial design, who really practises what they preach with regards to the exhibits and statements they make.
 
 <figure class="centered-figure">
-  <img src="/assets/post_assets/2025-10-11-Scienceworks_is_an_absolute_delight/medicine.jpg"
+  <img src="{{ '/assets/post_assets/2025-10-11-Scienceworks_is_an_absolute_delight/medicine.jpg' | relative_url }}"
     alt=""
     style="height:400px; width:auto;">
   <figcaption>
