@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let loadedCount = 0;
 
   if (figures.length === 0) {
-    // No images, just resize captions (unlikely)
+    // Resize captions
     resizeCaptions();
   } else {
     figures.forEach(img => {

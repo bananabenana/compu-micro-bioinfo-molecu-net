@@ -82,95 +82,101 @@ a:visited {
 }
 
 /* =========================
-   Mobile - hide TOC and hamburger menu
-   ========================= */
+   Mobile fixes: hamburger, images, search, TOC
+========================= */
 @media screen and (max-width: 768px) {
-  /* Header + footer wrapper width */
+
+  /* prevent horizontal scroll */
+  body, html {
+    overflow-x: hidden;
+  }
+
+  /* wrapper widths */
+  .page-content .wrapper,
   .site-header .wrapper,
-  .site-footer .wrapper,
-  .page-content .wrapper {
-    max-width: 95%;
-    width: 95%;
+  .site-footer .wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
     padding-left: 1rem;
     padding-right: 1rem;
+    box-sizing: border-box;
   }
 
-  /* Stack header content */
-  .site-header .wrapper {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  /* Hide TOC on mobile */
+  /* hide TOC completely */
   .toc {
-    display: none;
+    display: none !important;
   }
 
-  /* =========================
-   Hamburger menu for mobile
-   ========================= */
-  .site-nav {
-    position: relative;
-  
-    #nav-trigger {
-      display: none; // hide checkbox visually
-    }
-  
-    .hamburger-label {
-      display: block;
-      cursor: pointer;
-      width: 30px;
-      height: 22px;
-      position: relative;
-      z-index: 1001; // above content
-      span.menu-icon,
-      span.menu-icon::before,
-      span.menu-icon::after {
-        display: block;
-        background: #000;
-        height: 3px;
-        width: 100%;
-        border-radius: 2px;
-        position: absolute;
-        transition: all 0.3s ease;
-      }
-  
-      span.menu-icon {
-        top: 50%;
-        transform: translateY(-50%);
-      }
-      span.menu-icon::before {
-        content: '';
-        top: -8px;
-      }
-      span.menu-icon::after {
-        content: '';
-        top: 8px;
-      }
-    }
-  
-    // Toggle nav-right on checkbox checked
-    #nav-trigger:checked ~ .nav-right {
-      max-height: 500px; // large enough to fit menu + search
-      opacity: 1;
-      visibility: visible;
-    }
-  
-    .nav-right {
-      display: flex;
-      flex-direction: column;
-      gap: 0.8rem;
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.3s ease, opacity 0.3s ease;
-      opacity: 0;
-      visibility: hidden;
-  
-      input#search-input {
-        width: 100%;
-      }
-    }
+  /* header layout */
+  .site-header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* vertical center */
+  }
+
+  /* Hamburger button (SVG) */
+  .hamburger {
+    width: 40px;      /* clickable box width */
+    height: 40px;     /* clickable box height */
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  /* SVG inside hamburger fills button */
+  .hamburger svg {
+    width: 24px;
+    height: 24px;
+    display: block;
+    object-fit: contain;
+    /* center by flex parent, no margin needed */
+  }
+
+  /* nav-right hidden by default */
+  .nav-right {
+    display: none;
+    position: absolute;
+    top: 50px;  /* below header */
+    right: 1rem;
+    flex-direction: column;
+    gap: 0.75rem;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 1rem;
+    z-index: 999;
+    min-width: 180px;
+    max-width: 95%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  /* make images responsive */
+  .centered-figure,
+  .post-content img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+  }
+
+  /* constrain text to prevent overflow */
+  .post-content, 
+  .post-content * {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+
+  /* search bar */
+  .nav-right #search-input {
+    width: 95%;
+    max-width: 250px;
+    box-sizing: border-box;
   }
 }
 

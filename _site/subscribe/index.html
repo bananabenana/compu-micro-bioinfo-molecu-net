@@ -24,19 +24,21 @@
 
 </head>
 <body><header class="site-header">
-
   <div class="wrapper">
+
+    <!-- Logo / Site title -->
     <a class="site-title" rel="author" href="/compu-micro-bioinfo-molecu-net/">
       <img src="/compu-micro-bioinfo-molecu-net/assets/images/logo.png" alt="Site icon" class="site-icon">
       compu-micro-bioinfo-molecu-net
     </a>
       <nav class="site-nav">
-
+        <!-- Hamburger checkbox -->
         <input type="checkbox" id="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon"></span>
+        <label for="nav-trigger" class="hamburger">
+          <img src="/compu-micro-bioinfo-molecu-net/assets/images/hamburger.svg" alt="Menu" />
         </label>
-      
+
+        <!-- Navigation items + search -->
         <div class="nav-right">
           <div class="nav-items">
   <a class="nav-item" href="/compu-micro-bioinfo-molecu-net/">Home</a>
@@ -45,15 +47,13 @@
   <a class="nav-item" href="/compu-micro-bioinfo-molecu-net/subscribe/">Subscribe</a>
 </div>
 
-      
-          <!-- search box -->
-          <input type="text" id="search-input" placeholder="/ to search..." />
+          <div class="search-wrapper">
+            <input type="text" id="search-input" placeholder="/ to search..." />
+          </div>
         </div>
-      
       </nav>
   </div>
-</header>
-<main class="page-content" aria-label="Content">
+</header><main class="page-content" aria-label="Content">
       <div class="wrapper">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -130,11 +130,18 @@
   </div>
 
 </footer>
-<script src="/compu-micro-bioinfo-molecu-net/assets/js/toc-highlight.js"></script>
+<script>
+    if (window.innerWidth <= 768) {
+      const script = document.createElement('script');
+      script.src = "/compu-micro-bioinfo-molecu-net/assets/js/mobile-header-menu.js";
+      script.defer = true;
+      document.body.appendChild(script);
+    }
+  </script>
+  <script src="/compu-micro-bioinfo-molecu-net/assets/js/toc-highlight.js"></script>
   <script src="/compu-micro-bioinfo-molecu-net/assets/js/sortable-tables.js"></script>
   <script> window.SEARCH_JSON_URL = "/compu-micro-bioinfo-molecu-net/search.json"; </script>
   <script src="/compu-micro-bioinfo-molecu-net/assets/js/search.js"></script>
-  <!-- Image caption width adjustment -->
   <script src="/compu-micro-bioinfo-molecu-net/assets/js/image-caption.js"></script>
   <div id="search-results"></div>
   </body>

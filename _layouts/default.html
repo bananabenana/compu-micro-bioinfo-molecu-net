@@ -15,7 +15,14 @@
 
     {%- include footer.html -%}
   
-  <script src="{{ '/assets/js/mobile-header-menu.js' | relative_url }}"></script>
+  <script>
+    if (window.innerWidth <= 768) {
+      const script = document.createElement('script');
+      script.src = "{{ '/assets/js/mobile-header-menu.js' | relative_url }}";
+      script.defer = true;
+      document.body.appendChild(script);
+    }
+  </script>
   <script src="{{ '/assets/js/toc-highlight.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/sortable-tables.js' | relative_url }}"></script>
   <script> window.SEARCH_JSON_URL = "{{ '/search.json' | relative_url }}"; </script>
