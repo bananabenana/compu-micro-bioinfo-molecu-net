@@ -7,14 +7,15 @@
   "minima/initialize";
 
 /* =========================
-   Selection colour in browser
+   Selection colour in browsers
    ========================= */
-::selection {
+
+::selection {                   // Chromium
   background-color: #75b938ff;
   color: #000;
 }
 
-::-moz-selection { /* Firefox */
+::-moz-selection {              // Firefox
   background-color: #75b938ff;
   color: #000;
 }
@@ -24,17 +25,17 @@
    ========================= */
 
 a {
-  color: #6baa33ff; /* fresh / unvisited link color */
-  text-decoration: none; /* optional: remove underline */
+  color: #6baa33ff;    // fresh or unvisited link color
+  text-decoration: none; // Removes underline
 }
 
 a:hover, a:focus {
-  color: #2e4515ff; /* color when hovered or focused */
-  text-decoration: underline; /* optional: show underline on hover */
+  color: #2e4515ff;         // color when hovered or focused
+  text-decoration: underline; // Shows underline on hover
 }
 
 a:visited {
-  color: #527a24ff; /* visited link color */
+  color: #527a24ff; // visited link color
 }
 
 /* =========================
@@ -65,8 +66,8 @@ a:visited {
 .page-content .wrapper,
 .site-header .wrapper,
 .site-footer .wrapper {
-  max-width: 90% !important;
-  width: 90% !important;
+  max-width: 95% !important;
+  width: 95% !important;
   padding-left: 2rem;
   padding-right: 2rem;
   margin-left: auto;
@@ -153,7 +154,7 @@ a:visited {
    ========================= */
 .post-content {
   flex: 1 1 auto;
-  min-width: 0; /* allow flex shrink */
+  min-width: 0; // allow flex shrink
 }
 
 #comments, #giscus {
@@ -169,7 +170,7 @@ a:visited {
 }
 
 /* =========================
-   Responsive: stack TOC on top
+   Stack TOC on top
    ========================= */
 @media screen and (max-width: 992px) {
   .post-container {
@@ -192,7 +193,7 @@ a:visited {
 }
 
 /* =========================
-   Active TOC link (JS adds .active)
+   Active TOC link
    ========================= */
 .toc a {
   transition: font-weight 0.2s, color 0.2s;
@@ -222,7 +223,7 @@ html {
 .centered-figure {
   display: flex;          
   flex-direction: column; 
-  align-items: center;    /* center the content */
+  align-items: center;    // center the content
   margin: 2rem 0;         
 }
 
@@ -230,18 +231,26 @@ html {
   display: block;         
   max-width: 100%;        
   height: auto;           
-  /* Shift left by the width of the TOC */
-  transform: translateX(-75px);
+  transform: translateX(-75px);   // Shift left by the width of the TOC
+
 }
 
 .centered-figure figcaption {
-  text-align: left;       /* caption left-aligned relative to image */
+  display: block;
+  text-align: left;
   font-style: italic;
   margin-top: 0.5rem;
+
+  /* constrain width to the image width */
+  max-width: calc(79% - 75px);  // subtract TOC shift
+  white-space: normal;
+  word-wrap: break-word;
+
+  /* keep the horizontal shift */
   transform: translateX(-75px);
 }
 
-/* Reset on smaller screens so it’s fully centered */
+// Reset on smaller screens so page is fully centered
 @media screen and (max-width: 992px) {
   .centered-figure img {
     transform: none;
@@ -253,7 +262,7 @@ html {
    ========================= */
 table.sortable th {
   cursor: pointer;
-  position: relative; // keep for positioning the arrow
+  position: relative;  // keep for positioning the arrow
 }
 
 table.sortable th::after {
@@ -265,7 +274,7 @@ table.sortable th::after {
   right: 0.5em;         // distance from right edge
   top: 50%;             // vertical centering
   transform: translateY(-50%);
-  margin-left: 0;       // remove old spacing
+  margin-left: 0;       // removes spacing
 }
 
 
@@ -285,7 +294,6 @@ table.sortable th::after {
   border-radius: 6px;
   font-size: 1rem;
 }
-
 
 .search-result a {
   text-decoration: none;
@@ -335,13 +343,13 @@ table.sortable th::after {
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   display: none;
   z-index: 999;
-  max-height: 75vh;   /* limit to 50% of viewport height */
-  overflow-y: auto;   /* scroll if content exceeds max-height */
+  max-height: 75vh;   // limit to 75% of viewport height
+  overflow-y: auto;   // scroll if content exceeds max-height
 }
 
 .search-result {
   display: flex;
-  flex-direction: column;  /* stack title above content */
+  flex-direction: column;  // stack title above content
   gap: 0.5rem;
   padding: 0.5rem 0.8rem;
   border-bottom: 1px solid #eee;
@@ -359,7 +367,7 @@ table.sortable th::after {
 }
 
 .search-result-content {
-  display: flex;      /* image + snippet in a row */
+  display: flex;      // image + snippet in a row
   gap: 0.7rem;
   align-items: flex-start;
 }
@@ -385,8 +393,8 @@ table.sortable th::after {
 }
 
 mark {
-  background-color: #75b938ff; /* your desired hex */
-  color: #000;               /* text color */
-  border-radius: 2px;        /* optional */
-  padding: 0 2px;            /* optional */
+  background-color: #75b938ff; // Desired hex
+  color: #000;                 // text color
+  border-radius: 2px;            // optional
+  padding: 0 2px;                // optional
 }

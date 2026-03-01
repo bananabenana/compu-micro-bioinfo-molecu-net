@@ -876,12 +876,12 @@ table td {
    ========================= */
 a {
   color: #6baa33; /* fresh / unvisited link color */
-  text-decoration: none; /* optional: remove underline */
+  text-decoration: none; /* Removes underline */
 }
 
 a:hover, a:focus {
   color: #2e4515; /* color when hovered or focused */
-  text-decoration: underline; /* optional: show underline on hover */
+  text-decoration: underline; /* Shows underline on hover */
 }
 
 a:visited {
@@ -916,8 +916,8 @@ a:visited {
 .page-content .wrapper,
 .site-header .wrapper,
 .site-footer .wrapper {
-  max-width: 90% !important;
-  width: 90% !important;
+  max-width: 95% !important;
+  width: 95% !important;
   padding-left: 2rem;
   padding-right: 2rem;
   margin-left: auto;
@@ -1074,9 +1074,15 @@ html {
 }
 
 .centered-figure figcaption {
-  text-align: left; /* caption left-aligned relative to image */
+  display: block;
+  text-align: left;
   font-style: italic;
   margin-top: 0.5rem;
+  /* constrain width to the image width */
+  max-width: calc(79% - 75px); /* subtract TOC shift */
+  white-space: normal;
+  word-wrap: break-word;
+  /* keep the horizontal shift */
   transform: translateX(-75px);
 }
 
