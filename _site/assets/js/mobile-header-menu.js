@@ -1,19 +1,15 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const hamburger = document.querySelector(".hamburger");
-  const navRight = document.querySelector(".nav-right");
+const btn = document.querySelector(".hamburger");
+const menu = document.querySelector(".nav-right");
 
-  if (!hamburger || !navRight) return;
+if (!btn || !menu) return;
 
-  // toggle nav-right on hamburger click
-  hamburger.addEventListener("click", (e) => {
-    e.stopPropagation(); // prevent document click from immediately closing it
-    navRight.style.display = (navRight.style.display === "flex") ? "none" : "flex";
-  });
-
-  // close nav if clicking outside
-  document.addEventListener("click", (e) => {
-    if (!navRight.contains(e.target) && !hamburger.contains(e.target)) {
-      navRight.style.display = "none";
-    }
-  });
+btn.addEventListener("click", e => {
+  e.stopPropagation();
+  menu.classList.toggle("open");
 });
+
+document.addEventListener("click", () => {
+  menu.classList.remove("open");
+});
+
+menu.addEventListener("click", e => e.stopPropagation());

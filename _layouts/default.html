@@ -14,14 +14,16 @@
     </main>
 
     {%- include footer.html -%}
-  
+
   <script>
-    if (window.innerWidth <= 768) {
-      const script = document.createElement('script');
-      script.src = "{{ '/assets/js/mobile-header-menu.js' | relative_url }}";
-      script.defer = true;
-      document.body.appendChild(script);
+  function toggleMenu() {
+    var x = document.getElementById("mobileMenu");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
     }
+  }
   </script>
   <script src="{{ '/assets/js/toc-highlight.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/sortable-tables.js' | relative_url }}"></script>

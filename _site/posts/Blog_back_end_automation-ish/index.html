@@ -35,14 +35,14 @@
       compu-micro-bioinfo-molecu-net
     </a>
       <nav class="site-nav">
-        <!-- Hamburger checkbox -->
-        <input type="checkbox" id="nav-trigger" />
-        <label for="nav-trigger" class="hamburger">
-          <img src="/compu-micro-bioinfo-molecu-net/assets/images/hamburger.svg" alt="Menu" />
-        </label>
+
+        <!-- Hamburger button (mobile only via CSS) -->
+        <a href="javascript:void(0);" class="hamburger" onclick="toggleMenu()">
+          <img src="/compu-micro-bioinfo-molecu-net/assets/images/hamburger.svg" alt="Menu">
+        </a>
 
         <!-- Navigation items + search -->
-        <div class="nav-right">
+        <div id="mobileMenu" class="nav-right">
           <div class="nav-items">
   <a class="nav-item" href="/compu-micro-bioinfo-molecu-net/">Home</a>
   <a class="nav-item" href="/compu-micro-bioinfo-molecu-net/about/">About</a>
@@ -54,6 +54,7 @@
             <input type="text" id="search-input" placeholder="/ to search..." />
           </div>
         </div>
+
       </nav>
   </div>
 </header><main class="page-content" aria-label="Content">
@@ -345,12 +346,14 @@ git push origin main
 
 </footer>
 <script>
-    if (window.innerWidth <= 768) {
-      const script = document.createElement('script');
-      script.src = "/compu-micro-bioinfo-molecu-net/assets/js/mobile-header-menu.js";
-      script.defer = true;
-      document.body.appendChild(script);
+  function toggleMenu() {
+    var x = document.getElementById("mobileMenu");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
     }
+  }
   </script>
   <script src="/compu-micro-bioinfo-molecu-net/assets/js/toc-highlight.js"></script>
   <script src="/compu-micro-bioinfo-molecu-net/assets/js/sortable-tables.js"></script>
