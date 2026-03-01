@@ -5,7 +5,7 @@ title: Home
 
 <figure class="centered-figure">
   <a href="Posts">
-    <img src="/assets/images/logo.png"
+    <img src="{{ '/assets/images/logo.png' | relative_url }}"
          alt="compu-micro-bioinfo-molecu-net logo"
          style="height:400px; width:auto;">
   </a>

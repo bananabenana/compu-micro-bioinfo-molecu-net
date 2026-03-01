@@ -47,7 +47,7 @@ See blog posts and associated resources
 
 
 <figure class="centered-figure">
-  <img src="/assets/images/logo.png"
+  <img src="{{ '/assets/images/logo.png' | relative_url }}"
     alt="compu-micro-bioinfo-molecu-net logo"
     style="height:400px; width:auto;">
   <figcaption>

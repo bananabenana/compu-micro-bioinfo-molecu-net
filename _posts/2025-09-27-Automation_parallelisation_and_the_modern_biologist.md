@@ -8,7 +8,7 @@ As someone who started their scientific career in the wet lab dealing with singl
 
 
 <figure class="centered-figure">
-  <img src="/assets/post_assets/2025-09-27_Automation_parallelisation_and_the_modern_biologist/blue_red_pipette_choice.png"
+  <img src="{{ '/assets/post_assets/2025-09-27_Automation_parallelisation_and_the_modern_biologist/blue_red_pipette_choice.png' | relative_url }}"
     alt="Man holding a multi-channel pipette in the right hand and a single channel pipette in the left hand. These are held out to the viewer."
     style="height:300px; width:auto;">
   <figcaption>
@@ -25,7 +25,7 @@ Not sure if anyone else feels this way, but when I have to perform tasks which c
 For example, I see single-channel pipetting as a `for` loop:
 
 <figure class="centered-figure">
-  <img src="/assets/post_assets/2025-09-27_Automation_parallelisation_and_the_modern_biologist/pipette_tips.svg"
+  <img src="{{ '/assets/post_assets/2025-09-27_Automation_parallelisation_and_the_modern_biologist/pipette_tips.svg' | relative_url }}"
     alt="Single-channel pipette"
     style="height:200px; width:auto;">
   <figcaption>
@@ -44,7 +44,7 @@ For loops are great because they are automated, but suffer from sequentiality, m
 
 
 <figure class="centered-figure">
-  <img src="/assets/post_assets/2025-09-27_Automation_parallelisation_and_the_modern_biologist/pipette_multi_channel_tips.svg"
+  <img src="{{ '/assets/post_assets/2025-09-27_Automation_parallelisation_and_the_modern_biologist/pipette_multi_channel_tips.svg' | relative_url }}"
     alt="Multi-channel pipette"
     style="height:200px; width:auto;">
   <figcaption>
@@ -95,7 +95,7 @@ In terms of postgraduate students, we offer them hybrid wet and dry-lab projects
 I have found that harnessing my inner laziness has led to increased productivity and better science, where doing more initial work leads to less overall work, thus giving me more time to spend on reducing the time I spend on even more things.
 
 <figure class="centered-figure">
-  <img src="/assets/post_assets/2025-09-27_Automation_parallelisation_and_the_modern_biologist/advice_dog.png"
+  <img src="{{ '/assets/post_assets/2025-09-27_Automation_parallelisation_and_the_modern_biologist/advice_dog.png' | relative_url }}"
     alt="Advice dog meme with caption: "
     style="height:400px; width:auto;">
   <figcaption>

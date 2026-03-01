@@ -7,7 +7,7 @@ image: assets/post_assets/2025-09-26_Blog_back_end_automation-ish/project_decay_
 My usual relationship with extra-curricular projects has a half-life that’s measured in single afternoons rather than the desired weeks/months. As such, it was a bit of work figuring out the underlying tooling, workflow and architecture to make the blogging process sticky, yet frictionless as possible. In other words, I wanted to maximise *sticktionlessness*. For me, that starts with automation.
 
 <figure class="centered-figure">
-  <img src="/assets/post_assets/2025-09-26_Blog_back_end_automation-ish/project_decay_line.png"
+  <img src="{{ '/assets/post_assets/2025-09-26_Blog_back_end_automation-ish/project_decay_line.png' | relative_url }}"
        alt="Half-life decay of various personal projects of mine over time, including Replacing the mirror in the bathroom, Working on that Xenomorph speculative biology paper\nI started and never came back to, Telling my friends they SHOULDN'T start a podcast and Writing the compu-micro-bioinfo-molecu-net blog"
        style="height:500px; width:auto;">
   <figcaption>
@@ -57,7 +57,7 @@ echo -e "# ${post_title}\n\n##### ${todays_date}\n\nintro_paragraph_here\n\n<br 
 - Citations are managed with [Zotero](https://www.zotero.org/) v7.0.15 (3) with the [Better Bibtex for Zotero](https://github.com/retorquere/zotero-better-bibtex/releases/tag/v7.0.50) v7.0.50 plugin (4). The VSCode plugin [VSCode Zotero](https://marketplace.visualstudio.com/items?itemName=jinvim.vscode-zotero) v1.1.1 (5) is used to handle in-text citations and generation of the `references.bib`.
 
 <figure class="centered-figure">
-  <img src="/assets/post_assets/2025-09-26_Blog_back_end_automation-ish/2025-09-26_window.png"
+  <img src="{{ '/assets/post_assets/2025-09-26_Blog_back_end_automation-ish/2025-09-26_window.png' | relative_url }}"
        alt="VSCode with Markdown Preview Enhanced viewing the .md file from Step 1."
        style="height:500px; width:auto;">
   <figcaption>
@@ -119,7 +119,7 @@ git push origin main
 **5.** The post is now live:
 
 <figure class="centered-figure">
-  <img src="/assets/post_assets/2025-09-26_Blog_back_end_automation-ish//2025-09-26_GH.png"
+  <img src="{{ '/assets/post_assets/2025-09-26_Blog_back_end_automation-ish/2025-09-26_GH' | relative_url }}"
        alt="Live post viewed on GitHub."
        style="height:500px; width:auto;">
   <figcaption>

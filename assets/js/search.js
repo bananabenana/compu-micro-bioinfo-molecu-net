@@ -1,10 +1,18 @@
+window.addEventListener("error", e => {
+  console.warn("Script error caught:", e.message);
+});
+
+window.addEventListener("unhandledrejection", e => {
+  console.warn("Unhandled promise:", e.reason);
+});
+
 document.addEventListener("DOMContentLoaded", async () => {
   const input = document.getElementById("search-input");
   const box = document.getElementById("search-results");
   if (!input || !box) return;
 
   // load search index
-  const posts = await (await fetch("/search.json")).json();
+  const posts = await (await fetch(window.SEARCH_JSON_URL)).json();
 
   function getAllSnippets(text, query, wordsAround = 10) {
     const regex = new RegExp(query, "gi");

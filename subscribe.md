@@ -21,7 +21,7 @@ if you want updates on new posts
 <br/>
 
 <figure class="centered-figure">
-  <img src="/assets/images/lab_coat.jpg"
+  <img src="{{ '/assets/images/lab_coat.jpg' | relative_url }}"
     alt="Lab coat hanging on a hook with initials 'BV'"
     style="height:400px; width:auto;">
   <figcaption>
