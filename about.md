@@ -1,6 +1,7 @@
 ---
 layout: about
 title: About
+image: assets/images/Klebs_streak.jpg
 ---
 
 

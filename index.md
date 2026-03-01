@@ -1,6 +1,7 @@
 ---
 layout: about
 title: Home
+image: assets/images/logo.png
 ---
 
 <figure class="centered-figure">

@@ -1,6 +1,7 @@
 ---
 layout: about
 title: Subscribe
+image: assets/images/lab_coat.jpg
 ---
 
 # Subscribe

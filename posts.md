@@ -1,6 +1,7 @@
 ---
 layout: about
 title: Posts
+image: assets/images/logo.png
 ---
 
 ## Post archive
