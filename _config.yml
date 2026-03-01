@@ -8,6 +8,9 @@ markdown: kramdown
 theme: minima
 permalink: /posts/:title/
 
+url: "https://bananabenana.github.io"
+baseurl: "/compu-micro-bioinfo-molecu-net"
+
 kramdown:
   input: GFM
   auto_ids: true

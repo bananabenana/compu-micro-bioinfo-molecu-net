@@ -10,7 +10,7 @@ If you want the tl;dr: Great interactive exhibits, creative use of space, many p
 
 
 <figure class="centered-figure">
-  <img src="/assets/post_assets/2025-10-11-Scienceworks_is_an_absolute_delight/moon.jpg"
+  <img src="{{ '/assets/post_assets/2025-10-11-Scienceworks_is_an_absolute_delight/moon.jpg' | relative_url }}">
     alt="An absolute legend standing underneath a giant model moon at the Planetarium, Scienceworks."
     style="height:400px; width:auto;">
   <figcaption>
