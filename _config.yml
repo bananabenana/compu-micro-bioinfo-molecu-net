@@ -19,7 +19,6 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-toc
 
 # Jekyll TOC configuration
 toc:

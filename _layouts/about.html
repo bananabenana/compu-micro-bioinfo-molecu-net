@@ -13,7 +13,7 @@ layout: default
     <!-- Sticky TOC sidebar -->
     <aside class="toc">
       <a href="#" class="toc-return-top">↑ Return to top</a>
-      {% toc %}
+      {% include toc.html html=content id="toc" class="section-nav" h_min=1 h_max=3 ordered=false %}
     </aside>
 
     <!-- Main page content -->
