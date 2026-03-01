@@ -7,6 +7,55 @@
   "minima/initialize";
 
 /* =========================
+   Header: logo at 5%, nav at 95%
+========================= */
+.site-header .wrapper {
+  position: relative;  /* allow absolute positioning of children */
+  height: 100px;       /* or whatever your header height is */
+}
+
+/* Logo / title at 5% */
+.site-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: absolute;
+  left: 2.5%;
+  top: 50%;
+  transform: translateY(-50%); /* vertical center */
+}
+
+/* Navigation at 95% */
+.site-nav {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 2.5%;
+  top: 50%;
+  transform: translateY(-50%); /* vertical center */
+}
+
+/* Desktop nav-right */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+
+/* =========================
+   Change the background of the entire blog
+   ========================= */
+body {
+  background-color: #faf9f6; /* #faf9f6;*/
+}
+
+/* Optional page wrapper background */
+.page-content .wrapper {
+  background-color: #faf9f6;
+}
+
+/* =========================
    Selection colour in browsers
    ========================= */
 
@@ -57,6 +106,17 @@ a:visited {
   border-radius: 8px;
   margin-top: 1.5rem;
   border: none;
+  color: #F5F5F5;
+}
+
+/* =========================
+   Footer and header colours
+   ========================= */
+.site-header {
+  background-color: #F5F5F5;
+}
+.site-footer {
+  background-color: #F5F5F5;
 }
 
 /* =========================
@@ -82,7 +142,7 @@ a:visited {
 }
 
 /* =========================
-   Mobile fixes: hamburger, images, search, TOC
+   Mobile fixes: hamburger, images, search, TOC, table wrapping
 ========================= */
 @media screen and (max-width: 768px) {
 
@@ -118,13 +178,13 @@ a:visited {
   .hamburger {
     display: flex;
     justify-content: center;
-    align-items: center;  // vertical centering
+    align-items: center;  /* vertical centering */
     width: 40px;
     height: 40px;
     padding: 0;
     background: none;
     border: none;
-    // cursor: pointer;
+    /* cursor: pointer; */
   }
 
   /* Hamburger image */
@@ -138,6 +198,8 @@ a:visited {
   #mobileMenu{
     display:none;
     position:absolute;
+    align-items: flex-start;
+    text-align: left;
     top:50px;
     right:1rem;
     flex-direction:column;
@@ -152,30 +214,16 @@ a:visited {
     box-shadow:0 4px 12px rgba(0,0,0,0.1);
   }
   
+  /* ensure links fill width and align left */
+  #mobileMenu a{
+    display:block;
+    width:100%;
+    text-align:left;
+  }
+
   /* when open */
   #mobileMenu.open{
     display:flex;
-  }
-  /* nav-right hidden by default */
-  .nav-right {
-    display: none;
-    position: absolute;
-    top: 50px;  /* below header */
-    right: 1rem;
-    flex-direction: column;
-    gap: 0.75rem;
-    background: white;
-    border: 1px solid #eee;
-    border-radius: 6px;
-    padding: 1rem;
-    z-index: 999;
-    min-width: 180px;
-    max-width: 95%;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
-
-  .nav-right.open {
-    display: flex;
   }
 
   /* make images responsive */
@@ -202,6 +250,126 @@ a:visited {
     max-width: 250px;
     box-sizing: border-box;
   }
+
+  /* make all code blocks scroll horizontally on mobile */
+  .highlight {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+    max-width: 100%;
+  }
+  
+  .highlight pre {
+    white-space: pre;     /* preserve formatting */
+    margin: 0;            /* remove extra margin */
+    padding: 0.5rem;      /* optional: keep some padding */
+    min-width: 100%;      /* allow horizontal scroll if content is wider */
+  }
+
+  .table-wrapper {
+    margin-bottom: 1rem;
+  }
+  
+  .table-wrapper table {
+    width: auto;          // let table determine its own width
+    min-width: 100%;      // at least fill container
+    border-collapse: collapse;
+  }
+}
+
+/* =========================
+   Mobile: make code blocks scrollable
+========================= */
+@media screen and (max-width: 768px) {
+  
+  /* Wrap code blocks in a scrollable container */
+  .highlight, 
+  .highlight pre, 
+  .language-bash.highlighter-rouge .highlight pre,
+  .language-plaintext.highlighter-rouge .highlight pre {
+    display: block;            /* ensure block layout */
+    width: 100%;               /* fill container */
+    max-width: 100%;           /* never exceed container width */
+    overflow-x: auto;          /* enable horizontal scroll if needed */
+    -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+    box-sizing: border-box;    /* include padding/border in width */
+    padding: 0.5rem;           /* optional: add padding inside block */
+    white-space: pre;          /* preserve formatting */
+    word-break: normal;        /* allow words to break if needed */
+  }
+
+  /* Optional: wrap in a visual container */
+  .code-wrapper {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 1rem;
+  }
+
+  /* Ensure inline <code> inside paragraphs do not overflow */
+  p code {
+    display: inline-block;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+}
+
+.site-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* less space so title and icon fit */
+}
+
+.site-title .site-icon {
+  width: 80px;   /* bigger than before, but not huge */
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .site-title .site-icon {
+    width: 50px; /* scale down for mobile */
+  }
+
+  .site-title {
+    font-size: 0.85rem; /* shrink title text to fit */
+  }
+}
+
+/*==========
+ Code blocks
+ ===========*/
+
+/* Code blocks with left green line */
+.highlight pre {
+  border-left: 3px solid #75b938ff;
+  background-color: #E0E2DC; /* #f7f7f7 */
+  padding-left: 0.75rem;   /* give space for the border */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  overflow-x: auto;         /* optional fallback for really long code */
+  box-sizing: border-box;
+}
+
+/* Style the inner code block */
+.highlight pre code {
+  background-color: #E0E2DC;  /* match the pre background */
+  color: #1b1b1b;             /* optional: code text color */
+  display: block;              /* ensures full width fills pre */
+  padding: 0;                  /* remove extra padding if present */
+}
+
+/* Inline code styling */
+p code,
+li code,
+span code {
+  background-color: #E0E2DC;  /* match your block color */
+  color: #1b1b1b;             /* code text color */
+  padding: 0.15rem 0.35rem;   /* small padding so it looks like a box */
+  border-radius: 4px;          /* subtle rounding */
+  font-family: monospace;      /* keep monospace font */
+  white-space: nowrap;          /* prevents breaking inline code */
 }
 
 /* =========================
@@ -392,7 +560,6 @@ table.sortable th::after {
   transform: translateY(-50%);
   margin-left: 0;       // removes spacing
 }
-
 
 
 /* =========================
