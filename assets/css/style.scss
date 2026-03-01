@@ -1,5 +1,5 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+// Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 @import
@@ -60,27 +60,33 @@ a:visited {
 }
 
 /* =========================
-   Full-width site
+   Width of site components
    ========================= */
-.page-content,
-.page-content .wrapper,
+/* Header/Footer wrapper */
 .site-header .wrapper,
 .site-footer .wrapper {
-  max-width: 95% !important;
-  width: 95% !important;
+  max-width: 95%;
+  width: 95%;
+  margin: 0 auto;
   padding-left: 2rem;
   padding-right: 2rem;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+/* Page content wrapper (posts) */
+.page-content .wrapper {
+  max-width: 85%;
+  width: 85%;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 @media screen and (max-width: 768px) {
-  .page-content,
-  .page-content .wrapper,
   .site-header .wrapper,
-  .site-footer .wrapper {
-    max-width: 95% !important;
-    width: 95% !important;
+  .site-footer .wrapper,
+  .page-content .wrapper {
+    max-width: 95%;
+    width: 95%;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -94,6 +100,8 @@ a:visited {
   flex-direction: row;
   gap: 2rem;
   align-items: flex-start;
+  width: 100%;        // fill the content width
+  max-width: none;     // ensure no old max-width applies
 }
 
 /* =========================
@@ -155,6 +163,7 @@ a:visited {
 .post-content {
   flex: 1 1 auto;
   min-width: 0; // allow flex shrink
+  max-width: none;     // remove any limiting max-width
 }
 
 #comments, #giscus {
@@ -216,44 +225,39 @@ html {
 }
 
 /* =========================
-   Centering function for figures
+   Centered figure with TOC shift (dynamic width)
    ========================= */
-
-/* Only target figures marked as centered */
 .centered-figure {
-  display: flex;          
-  flex-direction: column; 
-  align-items: center;    // center the content
-  margin: 2rem 0;         
+  display: flex;
+  flex-direction: column;
+  align-items: center;       // keep image centered
+  margin: 2rem 0;
+
+  // dynamically constrain figure width to page content minus TOC
+  width: calc(100% - 150px);  // 150 pixels for TOC
+  max-width: 100%;
 }
 
 .centered-figure img {
-  display: block;         
-  max-width: 100%;        
-  height: auto;           
-  transform: translateX(-75px);   // Shift left by the width of the TOC
-
+  display: block;
+  width: 100%;              // fill container
+  height: auto;             // maintain aspect ratio
 }
 
 .centered-figure figcaption {
   display: block;
-  text-align: left;
   font-style: italic;
   margin-top: 0.5rem;
-
-  /* constrain width to the image width */
-  max-width: calc(79% - 75px);  // subtract TOC shift
-  white-space: normal;
+  text-align: left;         // caption aligns with image left
+  max-width: 100%;          // constrain to image/container width
   word-wrap: break-word;
-
-  /* keep the horizontal shift */
-  transform: translateX(-75px);
+  white-space: normal;
 }
 
-// Reset on smaller screens so page is fully centered
+/* Responsive: remove TOC shift on smaller screens */
 @media screen and (max-width: 992px) {
-  .centered-figure img {
-    transform: none;
+  .centered-figure {
+    width: 100%;
   }
 }
 

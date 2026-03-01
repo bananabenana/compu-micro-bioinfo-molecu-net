@@ -910,33 +910,26 @@ a:visited {
 }
 
 /* =========================
-   Width of site components
+   Full-width site
    ========================= */
-/* Header/Footer wrapper */
+.page-content,
+.page-content .zper,
 .site-header .wrapper,
 .site-footer .wrapper {
-  max-width: 95%;
-  width: 95%;
-  margin: 0 auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-/* Page content wrapper (posts) */
-.page-content .wrapper {
-  max-width: 85%;
-  width: 85%;
+  max-width: 95% !important;
+  width: 95% !important;
   margin: 0 auto;
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
 @media screen and (max-width: 768px) {
+  .page-content,
+  .page-content .wrapper,
   .site-header .wrapper,
-  .site-footer .wrapper,
-  .page-content .wrapper {
-    max-width: 95%;
-    width: 95%;
+  .site-footer .wrapper {
+    max-width: 95% !important;
+    width: 95% !important;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -1071,7 +1064,7 @@ html {
   flex-direction: column;
   align-items: center;
   margin: 2rem 0;
-  width: calc(100% - 150px);
+  width: calc(100% - 75px);
   max-width: 100%;
 }
 
@@ -1234,4 +1227,4 @@ mark {
   padding: 0 2px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style_cooked.css.map */
