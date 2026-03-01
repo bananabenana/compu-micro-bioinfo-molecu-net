@@ -162,6 +162,14 @@ a:visited {
     box-sizing: border-box;
   }
 
+  .site-title .site-icon {
+    width: 50px; /* scale down for mobile */
+  }
+
+  .site-title {
+    font-size: 0.85rem; /* shrink title text to fit */
+  }
+
   /* hide TOC completely */
   .toc {
     display: none !important;
@@ -325,16 +333,6 @@ a:visited {
 .site-title .site-icon {
   width: 80px;   /* bigger than before, but not huge */
   height: auto;
-}
-
-@media screen and (max-width: 768px) {
-  .site-title .site-icon {
-    width: 50px; /* scale down for mobile */
-  }
-
-  .site-title {
-    font-size: 0.85rem; /* shrink title text to fit */
-  }
 }
 
 /*==========

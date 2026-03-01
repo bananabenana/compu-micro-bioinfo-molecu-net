@@ -1009,6 +1009,12 @@ a:visited {
     padding-right: 1rem;
     box-sizing: border-box;
   }
+  .site-title .site-icon {
+    width: 50px; /* scale down for mobile */
+  }
+  .site-title {
+    font-size: 0.85rem; /* shrink title text to fit */
+  }
   /* hide TOC completely */
   .toc {
     display: none !important;
@@ -1155,14 +1161,6 @@ a:visited {
   height: auto;
 }
 
-@media screen and (max-width: 768px) {
-  .site-title .site-icon {
-    width: 50px; /* scale down for mobile */
-  }
-  .site-title {
-    font-size: 0.85rem; /* shrink title text to fit */
-  }
-}
 /*==========
  Code blocks
  ===========*/

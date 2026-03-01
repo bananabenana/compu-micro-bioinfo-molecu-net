@@ -4,3 +4,11 @@
   1. Head over to https://realfavicongenerator.net/ to add your own favicons.
   2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
 {% endcomment %}
+{% if page.image %}
+  <meta property="og:image" content="{{ page.image | absolute_url }}">
+  <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+{% endif %}
