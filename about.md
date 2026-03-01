@@ -41,7 +41,6 @@ If you want to check out my academic work and contributions to science:
 - Honours from Deakin University *(2013-2014)*
     - [Australian Centre for Disease Preparedness](https://www.csiro.au/en/about/facilities-collections/acdp), CSIRO
     - [School of Medicine](https://www.deakin.edu.au/faculty-of-health/school-of-medicine), Deakin University
-    - [One-pager resume](/Resources/Resume_single_page_public_2025-09-24.pdf) for other info
     - [One-pager resume]({{ '/assets/BV/Resume_single_page_public_2025-09-24.pdf' | relative_url }}) for other
 <br />
 

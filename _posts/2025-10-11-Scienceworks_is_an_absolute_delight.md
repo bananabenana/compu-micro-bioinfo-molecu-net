@@ -9,7 +9,7 @@ I want to gush about Scienceworks. In case you aren't aware, [Scienceworks](http
 If you want the tl;dr: Great interactive exhibits, creative use of space, many places to sit and chill and an adventure-guided layout. It creates a real harmonious day out for family or couples or lone travellers. 10/10 would recommend.
 
 
-<figure class="centered-figure">
+<figure class="centered-figure" >
   <img src="{{ '/assets/post_assets/2025-10-11-Scienceworks_is_an_absolute_delight/moon.jpg' | relative_url }}"
     alt="An absolute legend standing underneath a giant model moon at the Planetarium, Scienceworks."
     style="height:400px; width:auto;">
