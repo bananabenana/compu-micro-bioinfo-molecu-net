@@ -58,8 +58,7 @@ I've also tracked the spread of antibiotic resistance on a global scale at [Natu
   <img src="{{ '/assets/images/flying_fox.png' | relative_url }}"
     alt=""
     style="height:400px; width:auto;">
-  <figcaption>
-    <em>Mutant bacteriocins and their impact on killing activity.</em>
+  <figcaption>Transmission of Klebsiella between flying fox colonies in Australia.</em>
   </figcaption>
 </figure>
 
