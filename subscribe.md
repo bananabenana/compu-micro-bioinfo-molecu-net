@@ -1,10 +1,10 @@
 ---
 layout: about
 title: Subscribe
-image: assets/images/lab_coat.jpg
+image: assets/images/Klebs_streak.jpg
 ---
 
-# Subscribe
+## Subscribe
 
 if you want updates on new posts
 
@@ -22,10 +22,11 @@ if you want updates on new posts
 <br/>
 
 <figure class="centered-figure">
-  <img src="{{ '/assets/images/lab_coat.jpg' | relative_url }}"
-    alt="Lab coat hanging on a hook with initials 'BV'"
+  <img src="{{ '/assets/images/Klebs_streak.jpg' | relative_url }}"
+    alt="Klebsiella pneumoniae isolates on an LB agar plate"
     style="height:400px; width:auto;">
   <figcaption>
-    <em>My lab coat</em>
+    <em>Klebsiella pneumoniae isolates I streaked onto an LB agar plate.</em>
   </figcaption>
 </figure>
+

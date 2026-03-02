@@ -61,6 +61,7 @@ minima:
     - index.md
     - about.md
     - posts.md
+    - research.md
     - subscribe.md
 
   giscus:

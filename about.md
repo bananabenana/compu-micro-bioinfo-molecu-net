@@ -1,27 +1,38 @@
 ---
 layout: about
 title: About
-image: assets/images/Klebs_streak.jpg
+image: assets/images/headshot.jpg
 ---
 
 
 I am a research scientist in microbiology and infectious diseases. I am an expert in molecular biology, microbiology and comptuational biology/bioinformatics. Science is my day job, in particular analysing and visualising data. I've spent a lot of time looking at bacterial pathogens and how they transmit, along with their evolution, metabolism and resistance. My main focus is developing strategies to prevent and limit the spread of antimicrobial resistance through vaccine design, novel antimicrobial discovery, gene technologies and surveillance.
 
 <figure class="centered-figure">
-  <img src="{{ '/assets/images/Klebs_streak.jpg' | relative_url }}"
-    alt="Klebsiella pneumoniae isolates on an LB agar plate"
+  <img src="{{ '/assets/images/headshot.jpg' | relative_url }}"
+    alt="Headshot of blog author"
     style="height:400px; width:auto;">
   <figcaption>
-    <em>Klebsiella pneumoniae isolates I streaked onto an LB agar plate.</em>
+    <em>Me!</em>
   </figcaption>
 </figure>
 
 
 I currently work as a postdoc at the [Department of Infectious Diseases](https://www.monash.edu/medicine/translational/infectious-diseases), Monash University *(2020-Current)*.
 
-You can find me on Bluesky @[bananabenana.bsky.social](https://bsky.app/profile/bananabenana.bsky.social)
+<figure class="centered-figure">
+  <img src="{{ '/assets/images/lab_coat.jpg' | relative_url }}"
+    alt="Lab coat hanging on a hook with initials 'BV'"
+    style="height:400px; width:auto;">
+  <figcaption>
+    <em>My lab coat</em>
+  </figcaption>
+</figure>
 
-<br />
+## Socials
+You can find me on:
+- Bluesky @[bananabenana.bsky.social](https://bsky.app/profile/bananabenana.bsky.social)
+- [LinkedIn](https://www.linkedin.com/in/ben-vezina/)
+
 
 ## Academic cred
 If you want to check out my academic work and contributions to science:
@@ -30,7 +41,6 @@ If you want to check out my academic work and contributions to science:
 - [ORCiD](https://orcid.org/0000-0003-4224-2537)
 - [GitHub](https://github.com/bananabenana)
 
-<br />
 
 ## Previous gigs
 - Consulting for the agricultral biotechnology sector *(2020-Current)*
@@ -43,7 +53,7 @@ If you want to check out my academic work and contributions to science:
     - [Australian Centre for Disease Preparedness](https://www.csiro.au/en/about/facilities-collections/acdp), CSIRO
     - [School of Medicine](https://www.deakin.edu.au/faculty-of-health/school-of-medicine), Deakin University
     - [One-pager resume]({{ '/assets/BV/Resume_single_page_public_2025-09-24.pdf' | relative_url }}) for other
-<br />
+
 
 ## Inspo and motivation
 Starting this blog was motivated by a yearning for >300 character-self-expression in a semi-professional context, while providing a potentially useful resource for other scientists or dabbling computational biologists. I was inspired by the informative and enjoyable blogs of several peers. The blog title is inspired by the Marge Simpson-suggested [Compu-Global-Hyper-Mega-Net](https://simpsonswiki.com/wiki/Compu-Global-Hyper-Mega-Net), because *what am I gonna call my [blog]? All the good names are taken.*
@@ -57,12 +67,9 @@ Starting this blog was motivated by a yearning for >300 character-self-expressio
   </figcaption>
 </figure>
 
-<br />
-
 ## Meme-tier disclaimer
 This blog is not affiliated with any of my current or past employers, nor does it represent their views etc. I'm not even sure it represents my views. Let's find out together.
 
-<br />
 
 ## Licensing info, how to cite and reader info
 - If you find any of the blog's content useful or make use of any of the resources, please cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.17212790)
