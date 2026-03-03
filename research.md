@@ -8,7 +8,7 @@ image: assets/images/striking_image.png
 My research investigates bacterial pathogens and antimicrobial/antibiotic resistance, a growing global issue which traditional approaches such as new antimicrobials or vaccines have not resolved. During my PhD, I recognised that solving this problem would require a multi-disciplinary approach. I actively pursued roles with global leaders to develop expertise and build a versatile problem-solving toolbox. My approach combines large-scale genomics to understand bacterial pathogens and inform containment strategies. This has led to major contributions across both industry and key knowledge gaps encompassing pathogen population metabolism, surveillance of human and agricultural pathogens, novel antimicrobials, spread of antibiotic resistance, vaccine biotechnology and bioinformatic tool development.
 
 ## Research goals and interests
-My key research goal is to **address antibiotic resistance** to reduce the harm caused by untreatable bacterial infections. As a microbiologist, I feel a responsibility to help address this global challenge. I believe this is 100% solveable, but will require urgent investment in non-standard innovative strategies. To achieve this, I am focused on five main areas:
+**My key research goal is to address antibiotic resistance** and reduce the harm caused by untreatable bacterial infections. As a microbiologist, I feel a responsibility to help address this global challenge. I believe this is 100% solveable, but will require urgent investment in non-standard innovative strategies. To achieve this, I am focused on five main areas:
 
 1. **Development of novel anti-antibiotic strategies**
 2. **Inhibiting bacterial colonisation of hosts**
@@ -58,7 +58,7 @@ I've also tracked the spread of antibiotic resistance on a global scale at [Natu
   <img src="{{ '/assets/images/flying_fox.png' | relative_url }}"
     alt=""
     style="height:400px; width:auto;">
-  <figcaption>Transmission of Klebsiella between flying fox colonies in Australia.</em>
+  <figcaption><em>Transmission of Klebsiella between flying fox colonies in Australia.</em>
   </figcaption>
 </figure>
 

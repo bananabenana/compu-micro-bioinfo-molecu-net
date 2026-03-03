@@ -1222,7 +1222,17 @@ span code {
   border-left: none;
   font-size: 0.9rem;
   line-height: 1.5;
+  /* Level 2 headers (##) */
+  /* Level 3 headers (###) */
   /* unify Comments and Return to top link color */
+}
+.toc ul ul {
+  font-size: 0.85em;
+  margin-left: 0.75rem;
+}
+.toc ul ul ul {
+  font-size: 0.75em;
+  margin-left: 1rem;
 }
 .toc ul {
   list-style: none;

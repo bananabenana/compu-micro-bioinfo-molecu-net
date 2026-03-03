@@ -28,11 +28,6 @@ I currently work as a postdoc at the [Department of Infectious Diseases](https:/
   </figcaption>
 </figure>
 
-## Socials
-You can find me on:
-- Bluesky @[bananabenana.bsky.social](https://bsky.app/profile/bananabenana.bsky.social)
-- [LinkedIn](https://www.linkedin.com/in/ben-vezina/)
-
 
 ## Academic cred
 If you want to check out my academic work and contributions to science:
@@ -40,6 +35,12 @@ If you want to check out my academic work and contributions to science:
 - [OpenAlex](https://openalex.org/authors/a5051696322)
 - [ORCiD](https://orcid.org/0000-0003-4224-2537)
 - [GitHub](https://github.com/bananabenana)
+
+
+## Socials
+You can find me on:
+- Bluesky @[bananabenana.bsky.social](https://bsky.app/profile/bananabenana.bsky.social)
+- [LinkedIn](https://www.linkedin.com/in/ben-vezina/)
 
 
 ## Previous gigs
@@ -52,7 +53,7 @@ If you want to check out my academic work and contributions to science:
 - Honours from Deakin University *(2013-2014)*
     - [Australian Centre for Disease Preparedness](https://www.csiro.au/en/about/facilities-collections/acdp), CSIRO
     - [School of Medicine](https://www.deakin.edu.au/faculty-of-health/school-of-medicine), Deakin University
-    - [One-pager resume]({{ '/assets/BV/Resume_single_page_public_2025-09-24.pdf' | relative_url }}) for other
+- [One-pager resume]({{ '/assets/BV/Resume_single_page_public_2025-09-24.pdf' | relative_url }})
 
 
 ## Inspo and motivation
@@ -71,8 +72,11 @@ Starting this blog was motivated by a yearning for >300 character-self-expressio
 This blog is not affiliated with any of my current or past employers, nor does it represent their views etc. I'm not even sure it represents my views. Let's find out together.
 
 
-## Licensing info, how to cite and reader info
-- If you find any of the blog's content useful or make use of any of the resources, please cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.17212790)
+## Citation
+- If you find any of the blog's content useful or make use of any of the resources, please cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.17212790) with the URL of the post.
+
+
+## Licensing information
 - Aside from the blog title, the content of this blog including all images, figures and text are licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0), so feel free to use, copy, edit etc, just chuck me a [reference](https://doi.org/10.5281/zenodo.17212790).
 <figure class="centered-figure">
   <a href="https://creativecommons.org/licenses/by/4.0/">
@@ -82,6 +86,5 @@ This blog is not affiliated with any of my current or past employers, nor does i
     </a>
 </figure>
 
-- If for some reason you feel the urge to respond to a post, just leave an [issue](https://github.com/bananabenana/compu-micro-bioinfo-molecu-net/issues).
 - Third-party images remain the property of their copyright holders and will be attributed when used.
 - Copyright © 2025 Ben Vezina
