@@ -698,3 +698,16 @@ mark {
   border-radius: 2px;            // optional
   padding: 0 2px;                // optional
 }
+
+/*Image grid options*/
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  justify-items: center;
+}
+
+.image-grid img {
+  height: 200px;
+  width: auto;
+}
