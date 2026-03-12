@@ -49,13 +49,14 @@ image: assets/images/logo.png
 <img src="{{ '/assets/images/antibiotics.jpg' | relative_url }}">
 <img src="{{ '/assets/images/ethanol_bath.jpg' | relative_url }}">
 <img src="{{ '/assets/images/media.jpg' | relative_url }}">
+<img src="{{ '/assets/images/cell_counts.jpg' | relative_url }}">
 
 
 
 
 
 
-cell_counts.jpg
+
 </div>
 
 <br/>
