@@ -5,61 +5,20 @@ image: assets/images/logo.png
 ---
 
 <figure class="centered-figure">
-  <a href="/compu-micro-bioinfo-molecu-net/posts/">
-    <img src="{{ '/assets/images/logo.png' | relative_url }}"
-         alt="compu-micro-bioinfo-molecu-net logo"
-         style="height:400px; width:auto;">
-  </a>
+  <img src="{{ '/assets/images/logo.png' | relative_url }}"
+       alt="compu-micro-bioinfo-molecu-net logo"
+       style="height:400px; width:auto;">
   <figcaption>
     <br />
     <em>A blog by Ben Vezina</em>
   </figcaption>
 </figure>
 
+## Gallery of my scientific work
 
-<div class="image-grid">
-
-<img src="{{ '/assets/images/promoters.jpg' | relative_url }}">
-<img src="{{ '/assets/images/flame.jpg' | relative_url }}">
-<img src="{{ '/assets/images/patch_plate.jpg' | relative_url }}">
-<img src="{{ '/assets/images/lab_bench_CSIRO.jpg' | relative_url }}">
-<img src="{{ '/assets/images/server.png' | relative_url }}">
-<img src="{{ '/assets/images/cloning.jpg' | relative_url }}">
-<img src="{{ '/assets/images/lab_bench_RMIT.jpg' | relative_url }}">
-<img src="{{ '/assets/images/bradford.jpg' | relative_url }}">
-<img src="{{ '/assets/images/DNAlluminati.jpg' | relative_url }}">
-<img src="{{ '/assets/images/obsidian.png' | relative_url }}">
-<img src="{{ '/assets/images/gram_stain1.jpg' | relative_url }}">
-<img src="{{ '/assets/images/lab_books.jpg' | relative_url }}">
-<img src="{{ '/assets/images/drip.jpg' | relative_url }}">
-<img src="{{ '/assets/images/western.jpg' | relative_url }}">
-<img src="{{ '/assets/images/transwells.jpg' | relative_url }}">
-<img src="{{ '/assets/images/snv.png' | relative_url }}">
-<img src="{{ '/assets/images/gram_stain2.jpg' | relative_url }}">
-<img src="{{ '/assets/images/phase_sep.jpg' | relative_url }}">
-<img src="{{ '/assets/images/machine_learning.png' | relative_url }}">
-<img src="{{ '/assets/images/anaerobic_growth.jpg' | relative_url }}">
-<img src="{{ '/assets/images/multi_level_network.png' | relative_url }}">
-<img src="{{ '/assets/images/drop_plate.jpg' | relative_url }}">
-<img src="{{ '/assets/images/networks.png' | relative_url }}">
-<img src="{{ '/assets/images/western_OG.jpg' | relative_url }}">
-<img src="{{ '/assets/images/bin_roster.jpg' | relative_url }}">
-<img src="{{ '/assets/images/patch_plates.jpg' | relative_url }}">
-<img src="{{ '/assets/images/growth_inhibition.jpg' | relative_url }}">
-<img src="{{ '/assets/images/antibiotics.jpg' | relative_url }}">
-<img src="{{ '/assets/images/ethanol_bath.jpg' | relative_url }}">
-<img src="{{ '/assets/images/media.jpg' | relative_url }}">
-<img src="{{ '/assets/images/cell_counts.jpg' | relative_url }}">
+{% include gallery.html %}
 
 
-
-
-
-
-
-</div>
-
-<br/>
 
 ## Scope
 - Bioinformatics

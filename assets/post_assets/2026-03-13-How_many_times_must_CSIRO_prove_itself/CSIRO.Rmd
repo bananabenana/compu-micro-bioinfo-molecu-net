@@ -1,0 +1,184 @@
+---
+title: "CSIRO"
+author: "benV"
+date: "2026-03-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r Budget over time}
+### Set working directory
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+
+
+### Load libraries
+library(tidyverse)
+
+
+### Load data
+
+# CPI info from https://www.ato.gov.au/tax-rates-and-codes/consumer-price-index for inflation adjustment
+CPI_quarterly <- read_tsv("CPI_quarterly.txt")
+
+# CSIRO budgets from https://csiropedia.csiro.au/organisational-history/annual-reports/
+budget_CSIRO <- read_tsv("budget_CSIRO.tsv")
+
+
+### Manip
+
+# Sort out the CPI data
+CPI_quarterly_long <- CPI_quarterly %>%
+  pivot_longer(cols = starts_with("Q"), names_to = "quarter", values_to = "cpi") %>%
+  mutate(
+    date = case_when(
+      quarter == "Q1" ~ ymd(paste0(Year, "-03-31")),
+      quarter == "Q2" ~ ymd(paste0(Year, "-06-30")),
+      quarter == "Q3" ~ ymd(paste0(Year, "-09-30")),
+      quarter == "Q4" ~ ymd(paste0(Year, "-12-31"))
+    )
+  ) %>%
+  filter(!is.na(cpi)) %>%
+  arrange(date)
+
+# Get Current CPI of 2025 Q2
+cpi_current <- CPI_quarterly_long %>%
+  filter(Year == 2025, quarter == "Q3") %>%
+  pull(cpi)
+
+
+# Longtable of CSIRO budgets
+budget_long <- budget_CSIRO |> 
+  mutate(
+    Operating_result_with_deferred_revenue_added = Operating_result + abs(Work_in_progress_or_deferred_revenue)
+  ) |> 
+  select(-4) |> 
+  pivot_longer(cols = c(2:4)) |> 
+  mutate(
+    name = str_replace_all(name, "_", " "),
+    name = ifelse(name == "Total cash from gov", "Revenue from government", name),
+    facet_class = ifelse(name == "Revenue from government", "Revenue from government", "Operating result")
+  ) |> 
+  mutate(
+    Date = as.numeric((str_remove(Year, "\\d{4}-")))
+  )
+
+# Adjust for inflation
+adjusted_budget <- budget_long |> 
+  mutate(
+    interpolated_cpi = approx(
+      x = CPI_quarterly_long$date,
+      y = CPI_quarterly_long$cpi,
+      xout = Date,
+      rule = 2  # use nearest if date outside range
+    )$y
+  ) |> 
+  # Adjust to latest CPI value
+  mutate(
+    adjusted_amount = value * (cpi_current / interpolated_cpi)
+  ) |> 
+  arrange(name, Date) |> 
+  group_by(name) |> 
+  mutate(
+    cumulative_adjusted_amount = cumsum(adjusted_amount)
+  ) |> 
+  ungroup()
+
+ggplot(adjusted_budget, aes(x = Year, y = cumulative_adjusted_amount, group = name, colour = name)) +
+  geom_hline(yintercept = 0, colour = "dark red", linewidth = 1) +
+  geom_point() +
+  geom_line() +
+  scale_y_continuous(labels = scales::dollar_format()) +
+  labs(
+    y = "AUD amount"
+  ) +
+  facet_wrap(~ fct_rev(facet_class), ncol = 1, scales = "free") +
+  theme_bw() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1)
+  )
+
+```
+
+```{r Staffing over time}
+### Set working directory
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+
+
+### Load libraries
+library(tidyverse)
+library(colorspace)
+library(ggnewscale)
+
+
+### Load data
+
+# CSIRO budgets from https://csiropedia.csiro.au/organisational-history/annual-reports/
+staff <- read_tsv("staff_counts.tsv")
+
+
+### Manip
+
+staff_long <- staff |> 
+  pivot_longer(cols = c(2:last_col())) |> 
+  mutate(
+    name = str_replace_all(name, "_", " "),
+    name = str_replace(name, "Scientists engineers", "Scientists/Engineers")
+  ) |> 
+  filter(!is.na(value))
+
+# Remove total headcount and FTE
+jobs_only <- staff_long |> 
+  mutate(facet_class = case_when(
+    !name %in% c("FTE", "Total headcount") ~ "Job",
+    name == "FTE" ~ "Total Full Time Employment",
+    name == "Total headcount" ~ "Total staff"
+    )
+  ) |> 
+  filter(
+    !Year %in% c("2003-2004", "2004-2005"),
+    !name %in% c("Total headcount")
+    )
+  
+jobs_only_v2 <- jobs_only |> 
+  filter(
+    !name %in% c("FTE")
+  )
+
+FTE_only <- jobs_only |> 
+  filter(
+    name %in% c("FTE")
+  )
+# filter(!name %in% c("FTE", "Total headcount"))
+
+ggplot(jobs_only_v2, aes(x = Year, y = value)) +
+  geom_col(aes(fill = name), width = 1) +
+  scale_fill_discrete_divergingx(name = "Job", palette = "Temps") +
+  new_scale_fill() +
+  geom_col(data = FTE_only, aes(fill = facet_class), colour = "black", linewidth = 1, alpha = 0, width = 1) +
+  scale_fill_manual(name = "FTE", values = c("Total Full Time Employment" = "white")) +
+  scale_x_discrete(expand = c(0, 0)) +
+  scale_y_continuous("Number of jobs", expand = c(0, 0)) +
+  theme_bw() +
+  # facet_wrap(. ~ facet_class, scales = "free_y", ncol = 1) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1)
+  )
+
+
+ggplot(jobs_only_v2, aes(x = Year, y = value)) +
+  geom_col(aes(fill = name), width = 1, position = "fill") +
+  scale_fill_discrete_divergingx(name = "Job", palette = "Temps") +
+  scale_x_discrete(expand = c(0, 0)) +
+  scale_y_continuous("Number of jobs", expand = c(0, 0)) +
+  theme_bw() +
+  # facet_wrap(. ~ facet_class, scales = "free_y", ncol = 1) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1)
+  )
+
+```
+
+

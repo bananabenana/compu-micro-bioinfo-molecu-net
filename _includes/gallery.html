@@ -1,0 +1,37 @@
+{% assign captions = site.data.captions_index_grid %}
+
+<div class="image-grid">
+
+{% for file in site.static_files %}
+  {% if file.path contains "/assets/images/index_grid/thumbs/" %}
+
+    {% assign filename = file.name %}
+    {% assign ext = filename | split: "." | last | downcase %}
+
+    {% if ext == "jpg" or ext == "png" %} 
+
+      {% assign full_filename = filename | replace: "_thumb", "" %}
+      {% assign caption = captions[full_filename] | default: (full_filename) %}
+      
+      <img
+        src="{{ file.path | relative_url }}"
+        data-full="{{ '/assets/images/index_grid/' | append: full_filename | relative_url }}"
+        data-caption="{{ caption }}"
+        alt="{{ caption }}"
+      >
+    
+    {% endif %}
+
+  {% endif %}
+{% endfor %}
+
+</div>
+
+
+<div id="custom-lightbox" class="hidden">
+  <span id="lb-close">&times;</span>
+  <span id="lb-prev">&#10094;</span>
+  <span id="lb-next">&#10095;</span>
+  <img id="lb-img" src="" alt="">
+  <div id="lb-caption"></div>
+</div>

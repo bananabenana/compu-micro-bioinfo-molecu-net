@@ -42,7 +42,7 @@ To address this, I've worked to determine the metabolic diversity and distributi
     alt="Klebsiella pneumoniae species next to a heatmap of metabolic traits. The traits are coloured in either white indicating absense of a trait, or black, indicating presence of a metabolic trait"
     style="height:400px; width:auto;">
   <figcaption>
-    <em>Klebsiella pneumoniae species and their differential metabolic potential.</em>
+    <em>Klebsiella pneumoniae species and their differential metabolic potential. Paper here: https://doi.org/10.1371/journal.pbio.3003559</em>
   </figcaption>
 </figure>
 
@@ -52,7 +52,6 @@ To address this, I've worked to determine the metabolic diversity and distributi
 **Background**: A key aspect of antimicrobial resistance and the pathogens that cause infections is understanding both pathogen identity and resistance genes. Most surveillance uses either phenotypic tests or molecular methods, both of which can be misleading.
 
 To address this, I've employed large-scale genomic epidemiology to track the spread of bacterial pathogens within hospitals ([Nature Communications](https://doi.org/10.1038/s41467-023-39915-2)), and the agricultural sector at [Veterinary Research](https://doi.org/10.1186/s13567-023-01248-9) and [BMC Veterinary Research](https://doi.org/10.1186/s12917-022-03341-1).
-I've also tracked the spread of antibiotic resistance on a global scale at [Nature Communications](https://doi.org/10.1038/s41467-025-66874-7).
 
 <figure class="centered-figure">
   <img src="{{ '/assets/images/flying_fox.png' | relative_url }}"
@@ -62,6 +61,16 @@ I've also tracked the spread of antibiotic resistance on a global scale at [Natu
   </figcaption>
 </figure>
 
+I've also tracked the spread of antibiotic resistance on a global scale at [Nature Communications](https://doi.org/10.1038/s41467-025-66874-7).
+
+
+<figure class="centered-figure">
+  <img src="{{ '/assets/images/IMP_movement.png' | relative_url }}"
+    alt=""
+    style="height:400px; width:auto;">
+  <figcaption><em>Tracking the global spread of blaIMP carbapenemases. Paper here: https://doi.org/10.1038/s41467-025-66874-7</em>
+  </figcaption>
+</figure>
 
 
 ### Discovery and characterisation of novel antimicrobials
@@ -76,7 +85,7 @@ To address this, I have worked on the discovery of bacteriocins in [Heliyon](htt
     alt=""
     style="height:400px; width:auto;">
   <figcaption>
-    <em>Mutant bacteriocins and their impact on killing activity.</em>
+    <em>Mutant bacteriocins and their impact on killing activity. Paper here: https://doi.org/10.1128/AEM.00392-21</em>
   </figcaption>
 </figure>
 

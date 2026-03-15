@@ -20,6 +20,17 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Picture info within image grid
+picture:
+  source: assets/images
+  output: assets/generated
+
+  presets:
+    grid:
+      markup: img
+      widths: [200]
+      sizes: 200px
+
 # Jekyll TOC configuration
 toc:
   min_level: 1  # include <h1> and below
@@ -63,6 +74,7 @@ minima:
     - posts.md
     - research.md
     - subscribe.md
+
 
   giscus:
     repo: bananabenana/compu-micro-bioinfo-molecu-net
