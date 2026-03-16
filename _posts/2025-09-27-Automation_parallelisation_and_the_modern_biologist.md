@@ -111,7 +111,7 @@ Vector images drawn in Inkscape v1.3.2 (6). All figures and code in [assets](/as
 
 <br />
 
-# References
+## References
 
 <div id="refs" class="references csl-bib-body" entry-spacing="0">
 

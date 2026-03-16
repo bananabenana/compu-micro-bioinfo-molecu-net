@@ -256,19 +256,36 @@ table.sortable th::after {
 }
 
 /* =========================
-   Code blocks
+   Code blocks: responsive & cross-browser scroll
 ========================= */
+.highlight {
+  overflow-x: auto;                  /* allow horizontal scroll */
+  -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+  max-width: 100%;
+  box-sizing: border-box;            /* include padding/border in width */
+}
+
 .highlight pre {
+  display: block;
+  white-space: pre;                  /* preserve formatting */
+  width: 100%;                       /* fill container */
+  min-width: 0;                       /* allow shrinking inside flex containers */
+  padding: 0.5rem 0.75rem;
+  margin: 0;
   border-left: 3px solid #75b938ff;
   background-color: #E0E2DC;
-  padding-left: 0.75rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  overflow-x: auto;
+  overflow-x: auto;                   /* scroll if content too wide */
   box-sizing: border-box;
 }
 
-.highlight pre code { background-color: #E0E2DC; color: #1b1b1b; display: block; padding: 0; }
+.highlight pre code {
+  display: inline-block;              /* prevents Firefox from expanding pre */
+  min-width: 0;                       /* allows code to shrink inside pre */
+  word-wrap: break-word;              /* wrap long words if necessary */
+  background-color: #E0E2DC;
+  color: #1b1b1b;
+  padding: 0;                         /* keep padding in pre */
+}
 
 p code, li code, span code {
   background-color: #E0E2DC;
@@ -276,7 +293,25 @@ p code, li code, span code {
   padding: 0.15rem 0.35rem;
   border-radius: 4px;
   font-family: monospace;
-  white-space: nowrap;
+  white-space: nowrap;                /* inline code doesn’t break */
+}
+
+/* Mobile-specific tweaks */
+@media screen and (max-width: 768px) {
+  .highlight {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+
+  .highlight pre {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+
+  .highlight pre code {
+    min-width: 0;
+    display: inline-block;
+  }
 }
 
 /* =========================
