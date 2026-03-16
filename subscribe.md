@@ -22,7 +22,7 @@ if you want updates on new posts
 <br/>
 
 <figure class="centered-figure">
-  <img src="{{ '/assets/images/Klebs_streak.jpg' | relative_url }}"
+  <img src="{{ '/assets/images/index_grid/3_Klebs_streak.jpg' | relative_url }}"
     alt="Klebsiella pneumoniae isolates on an LB agar plate"
     style="height:400px; width:auto;">
   <figcaption>
