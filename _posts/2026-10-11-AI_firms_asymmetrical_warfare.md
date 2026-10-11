@@ -74,7 +74,7 @@ Agentic AI's advantage only holds for dry lab: the meatspace is still safe and r
 <figure class="centered-figure">
   <img src="{{ '/assets/post_assets/2026-10-11-AI_firms_asymmetrical_warfare/meatspace_crop.png' | relative_url }}"
        alt="'Meatspace', spelled out with sausages, ribs and other raw meats"
-       style="height:350px; width:auto;">
+       style="height:200px; width:auto;">
   <figcaption>
     <em>MEATSPACE</em>
   </figcaption>
@@ -154,7 +154,7 @@ Writing is an important human pursuit, not just for the reader but the writer as
 I personally find writing a valuable way to spend my time - and why I spent the last few hours writing this blog today.
 
 <figure class="centered-figure">
-  <img src="{{ '/assets/post_assets/2026-10-11-AI_firms_asymmetrical_warfare/banjo_kazooie.gif' | relative_url }}"
+  <img src="{{ '/assets/post_assets/2026-10-11-AI_firms_asymmetrical_warfare/banjo_kazooie.png' | relative_url }}"
        alt="Inside the sandcastle found in Treasure Trove Cove, within Banjo Kazooie. Floor shows tiles with all letters of the alphabet"
        style="height:350px; width:auto;">
   <figcaption>
@@ -166,17 +166,17 @@ I personally find writing a valuable way to spend my time - and why I spent the 
 
 ## References
 
-<b>[1]</b> https://github.com/openai/math
-<b>[2]</b> https://doi.org/10.1126/science.aej2213
-<b>[3]</b> https://www.humansecurity.com/learn/resources/2026-state-of-ai-traffic-cyberthreat-benchmarks
-<b>[4]</b> https://www.nature.com/articles/s41598-025-96372-1
-<b>[5]</b> https://doi.org/10.1016/0012-821X(94)90175-9
-<b>[6]</b> https://github.com/openai/math/blob/main/history.md
-<b>[7]</b> https://doi.org/10.1057/s41599-025-05797-6
-<b>[8]</b> https://scholar.google.com.au/citations?hl=en&user=Rf9oh94AAAAJ&view_op=list_works&sortby=pubdate
-<b>[9]</b> https://doi.org/10.1186/s13059-016-1044-7
-<b>[10]</b> https://knowyourmeme.com/sensitive/memes/first
-<b>[11]</b> https://www.reddit.com/r/mathematics/comments/1wzg35m/openai_sharing_ai_progress_in_mathematics/pebwqn2/
-<b>[12]</b> https://www.reddit.com/r/mathematics/comments/1wzg35m/openai_sharing_ai_progress_in_mathematics/pebzhr8/
-<b>[13]</b> https://www.howdoaiagentswork.com/hugging-face-incident/
-<b>[14]</b> https://doi.org/10.48550/arXiv.2506.08872
+<b>[1]</b> https://github.com/openai/math<br />
+<b>[2]</b> https://doi.org/10.1126/science.aej2213<br />
+<b>[3]</b> https://www.humansecurity.com/learn/resources/2026-state-of-ai-traffic-cyberthreat-benchmarks<br />
+<b>[4]</b> https://www.nature.com/articles/s41598-025-96372-1<br />
+<b>[5]</b> https://doi.org/10.1016/0012-821X(94)90175-9<br />
+<b>[6]</b> https://github.com/openai/math/blob/main/history.md<br />
+<b>[7]</b> https://doi.org/10.1057/s41599-025-05797-6<br />
+<b>[8]</b> https://scholar.google.com.au/citations?hl=en&user=Rf9oh94AAAAJ&view_op=list_works&sortby=pubdate<br />
+<b>[9]</b> https://doi.org/10.1186/s13059-016-1044-7<br />
+<b>[10]</b> https://knowyourmeme.com/sensitive/memes/first<br />
+<b>[11]</b> https://www.reddit.com/r/mathematics/comments/1wzg35m/openai_sharing_ai_progress_in_mathematics/pebwqn2/<br />
+<b>[12]</b> https://www.reddit.com/r/mathematics/comments/1wzg35m/openai_sharing_ai_progress_in_mathematics/pebzhr8/<br />
+<b>[13]</b> https://www.howdoaiagentswork.com/hugging-face-incident/<br />
+<b>[14]</b> https://doi.org/10.48550/arXiv.2506.08872<br />
