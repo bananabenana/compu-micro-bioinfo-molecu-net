@@ -10,7 +10,7 @@ I've been reflecting on the recent [OpenAI maths dump](https://github.com/openai
 
 Normally I tend to ignore most AI news, viewing it skeptically as hype driven by parties with conflicting interests including but not limited to:
 - Investors
-- Techbro-who-were-previously-shilling-crypto-and-NFT-driven
+- Techbro-who-were-previously-shilling-crypto-and-NFTs
 - Clickbait unoriginal copy-paste journalism underscoring the hollowness of the modern web-media landscape
 - Over-excited non-experts who have little to no understanding of the things they are hyping who read copy-paste journalism
 - Bots/LLMs
@@ -29,7 +29,6 @@ In my opinion, this story is worth paying attention and thinking about for a num
     <em>Meteor impacts can result in impactite known as shocked quartz. (a) Shocked quartz found in Haiti showing striations. (c) shows unshocked quartz. Figure adapted from Fig. 4 Kring et al., 1994 (https://doi.org/10.1016/0012-821X(94)90175-9) [5]</em>
   </figcaption>
 </figure>
-<br />
 
 ## Implications for bioinformatics and computational biology 
 Dump is a great description of what OpenAI did: totalling 719 AI-generated, unreviewed-by-human proofs and subsequent preprint manuscripts, [withdrawing three manuscripts within the first few days](https://github.com/openai/math/blob/main/history.md) [6] and likely some more to follow once domain-expert mathematicians spend the next few years crawling through 100+ page manuscripts of incomprehensible stuff, being able to pat themselves on the back as the first humans to ever critically review this work. Nonetheless, there appears to be many genuine scientific gains across these manuscripts. Using a similar approach, [Google has solved 9 new Erdős problems, along with expert-vetted, natural-language translations of these proofs](https://doi.org/10.1126/science.aej2213) [4].
@@ -60,7 +59,6 @@ Before, we were only considering other labs in the race to ['First!'](https://kn
     <em>The asymmetrical warfare that bioinformatic and computational biology researchers are up against (pawns). Oh and you can only make moves between the hours of 9:00 AM–5:30 PM while AI agents can take their turn 24/7</em>
   </figcaption>
 </figure>
-<br />
 
 There are other factors worth considering, such as whether mass spectrometry/protein/sequence data and experiments are even capturing a biologically-important signal that AI agents can even tease out. If experiments are cooked, or if signal isn't captured properly, then agentic approaches will be limited by this data which they are analysing. It's the same for people, but there is always an option to regenerate data or repeat experiments. AI agents don't yet have this meatspace capability. Additionally, discovery of non-homology-based novel biology may prove more difficult for them. For example, if a pathway is not characterised, or genes are unannotated or do not remotely perform similar functions to known genes, the most these agents will be able to do is take swings, but still be unable to actually validate them. Claims of agentic AI 'solving cancer' fall within the choo-choo hype train in my opinion, but there are definitely elements of the 'solving cancer' pipeline that could benefit from agentic approaches.
 
@@ -79,7 +77,6 @@ Agentic AI's advantage only holds for dry lab: the meatspace is still safe and r
     <em>MEATSPACE</em>
   </figcaption>
 </figure>
-<br />
 
 That said, in this new age, I can think of at least three options for those of us in the computational space as insulative practices:
 
@@ -109,8 +106,6 @@ As of now, agentic AI's advantage only holds for dry lab: the meatspace is still
     <em>No Ben, no!</em>
   </figcaption>
 </figure>
-<br />
-
 
 ### Option 2: Incorporate agentic AI into your workflow (adapt)
 What we're really talking about here is a function of time, i.e. if you can you turn your research around quicker than a commercial company can scoop you, there's no real issue. Therefore, instead of pivoting you could leverage agentic AI for your computational workflows. Now this isn't really a democratising solution, because not all labs have access to either the compute or the cash required for this. Note that agentic AI requires compute for the agents, along with any bioinformatic compute on top of this. However if you do have access to these resources, one could solve their projects quickly before the AI corpo giants turn their intergalactic spacelaser gaze to the research area and ARCHIMEDES II it.
@@ -139,12 +134,10 @@ At some stage, I hypothesise that funding bodies (at least the ones run by milk-
 
 We should have an answers for this. Existentially, we need answers for this. It could be that the research question simply isn't worth the emissions cost of running AI agents. But make no mistake, as people outside of computational biology and bioinformatics start valuing our expertise less, this is something I predict we will need to reckon with.
 
-
 ### Option 3: March on for the people (overcome)
 If large AI companies are gonna leapfrog research and rush to patent to maximise shareholder value, I believe it is reasonable to continue working on alternative strategies and solutions to solved problems - especially in the biotech and translational space.
 
 The obvious downside to this is potential therapies could price out normies and be exclusively for the rich. As my podcast-attuned friend often says: <i>"When AI discovers how to cure ageing, do you think they will make it available to the great unwashed?"</i>. Hyperbole aside, I think the point largely stands - AI firms are unlikely to redistribute wealth or democratise medicine in my opinion. So let's say they "cure ageing", I think it would be scientifically valid and reasonable to continue working on the problem and attempting novel drug design or discovery of novel targets. There would be a reasonable moral case for this. That said, acquiring funding may prove difficult if something has 'already been solved', so in conclusion: I dunno!
-
 
 ## AI-generated manuscripts
 My opinion is that bots have no place in the production of academic or scientific manuscripts, be it writing or reviewing. I am sick of reading generative-AI slop masquerading as science, which is full of ≥tri-syllabic jargon stitched togther into incomprehensible sentences. If someone can't be bothered writing out their findings, then I can't be bothered reading it.
@@ -161,11 +154,8 @@ I personally find writing a valuable way to spend my time - and why I spent the 
     <em>How I type out blog posts out. First I load up Banjo Kazooie, get into Treasure Trove Cove, drain the water, then enter the sandcastle</em>
   </figcaption>
 </figure>
-<br />
-
 
 ## References
-
 <b>[1]</b> https://github.com/openai/math<br />
 <b>[2]</b> https://doi.org/10.1126/science.aej2213<br />
 <b>[3]</b> https://www.humansecurity.com/learn/resources/2026-state-of-ai-traffic-cyberthreat-benchmarks<br />
